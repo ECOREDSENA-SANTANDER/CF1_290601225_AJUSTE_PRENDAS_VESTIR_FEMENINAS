@@ -1,9 +1,10 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    Name: 'El cliente y la estructura corporal femenina.',
+    Description:
+      'Este componente formativo ofrece una visión integral de la interacción y el ajuste en prendas de vestir, al estudiar al cliente, las técnicas de atención y comunicación, junto con el registro sistemático de datos, al tiempo que aborda las tipologías de prendas femeninas, universos de vestuario, tipos de ajuste y aprovechamiento de materiales textiles; profundiza además en la estructura corporal femenina desde la antropometría, anatomía, biomecánica, morfología, ergonomía y división del cuerpo, culminando con el análisis de siluetas y la clasificación de medidas.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
