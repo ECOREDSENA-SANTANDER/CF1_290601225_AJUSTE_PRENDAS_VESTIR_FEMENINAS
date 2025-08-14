@@ -32,13 +32,28 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Desarrollo de contenidos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Tipos de cliente y su relación',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Técnicas de atención al cliente',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Técnicas de comunicación con el cliente',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Registro de la información de la persona cliente',
+            hash: 't_1_4',
           },
         ],
       },
@@ -46,14 +61,53 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Tipología de Prendas Femeninas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Universos del vestuario',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Tipos de ajuste en prendas',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: '2.3 Los textiles',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Estructura Corporal Femenina',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Tipos de siluetas femeninas',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Análisis y clasificación de las medidas',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Análisis ergonómico',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Medición y señalizado de la prenda',
+            hash: 't_3_4',
+          },
+        ],
       },
     ],
     subMenu: [

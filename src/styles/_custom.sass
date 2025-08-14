@@ -3,13 +3,13 @@
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
     top: 61%
-    right: 75%
+    right: 55%
     width: 100px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 11%
-    right: 20%
+    right: 10%
     width: 100px
 @keyframes float1
   0%
@@ -36,9 +36,12 @@
       background-repeat: no-repeat 
       background-size: 100% 100%
       background-position: center !important
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/banner_interno.png") !important
 
 .bg-1
   background-color: #DBEEDC
+  border-radius: 20px
 .bg-2
   background-color: #F3F9FF
 .bg-3
@@ -55,6 +58,7 @@
   background-color:#FFF8EE
 .bg-9
   background-color:#FFF7D6
+  border-radius: 20px
 .bg-10
   background-color:#A5D6A7 !important
 .bg-11
@@ -65,3 +69,23 @@
   background-color: #FFFBEA
 .bg-14
   background-color: #ECE7F6
+  border-radius: 10px
+.bg-15 
+  background-color: #996E2E
+.fondo_intro
+  background-image: url('../assets/curso/portada/fondo1.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.fondo_t1
+  background-image: url('../assets/curso/Tema1/fondo1.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
