@@ -69,9 +69,28 @@
   background-color: #FFFBEA
 .bg-14
   background-color: #ECE7F6
-  border-radius: 10px
+  border-radius: 20px
+.bg-16
+  background-color: #FFF0DB
+  border-radius: 20px
+.bg-17
+  background-color: #FFB74D
 .bg-15 
   background-color: #996E2E
+.bg-20
+  background-color: #ffff
+.tarjeta--azul 
+  background-color: #F6FBF6 !important
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #3BF2D6
+.slyder-a__bullets__item--active 
+  background-color: #A5D6A7 !important
+  border-color: #A5D6A7
+  opacity: 1
+.slyder-a__bullets__item 
+    width: 15px
+    height: 15px
+    background-color: #D4EFD5
 .fondo_intro
   background-image: url('../assets/curso/portada/fondo1.png')
   background-position: center
@@ -89,3 +108,111 @@
   background-position: center
   background-size: 100% 100%
   background-repeat: no-repeat
+.fondo_t1_1
+  background-image: url('../assets/curso/Tema1/fondo2.png')
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.subt
+  display: flex
+  align-items: center
+  position: relative
+  width: fit-content
+  img
+    width: 70px
+  &::after
+    content: ''
+    position: absolute
+    background-color: $color-primario
+    border-top-right-radius: 20px
+    width: 94.5%
+    height: 70%
+    top: 10px
+    right: 0
+    z-index: 0
+  h3, img
+    z-index: 999  
+    position: relative
+  @media (max-width: $bp-max-sm)
+    &::after
+      height: 90%
+      top: 2px
+  @media (max-width: $bp-max-xs)
+    &::after
+      height: 95%
+      top: 0px
+
+.tarjeta-btn
+  background-color: #ECE7F6
+  transition: all 0.3s ease-out
+  img
+    height: 76px
+  .title
+    background-color: #D1C4E9
+    width: fit-content
+    padding: 3px 20px
+    margin: 0 auto
+  .lista-ul--color li > i:first-of-type
+    color: #FFB74D
+  &:hover
+    background-color: #A5D6A7
+    transition: all 0.3s ease-out
+    .title
+      background-color: #F6F3FA
+    .lista-ul--color li > i:first-of-type
+      color: #7E768C
+.subt2
+  background-color: #D1C4E9
+  width: fit-content
+  padding: 10px 20px
+  h3
+    border-bottom: 5px solid #FAF9FD
+.deco
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    background-image: url('../assets/curso/Tema1/linea.svg')
+    width: 50px
+    height: 100px
+    top: 0
+    left: 0
+    @media (max-width: $bp-max-sm)
+      display: none
+.texto-izquierda 
+  text-align: left !important
+.titulo-segundo:after 
+  border-left-color: #FFE060
+  background-color: #FFB74D
+.circl-arrow .slyder-f__btn i
+  font-size: 1.2rem
+  background-color: #3bf2d6
+  //background-color: $color-acento-contenido
+  //color: $white
+  height: 46px
+  width: 46px
+  padding: 5px
+  border-radius: 500px
+  display: flex
+  justify-content: center
+  align-items: center
+
+.bg1color
+  color: #FFB74D
+
+.acordion__accion__btn--a 
+  background-color: #3BF2D6 !important
+.bg-color
+  background-color: #4B1C16 !important
+.acordion .tarjeta--azul
+  background-color: #DBEEDC !important
+
+.acordion .tarjeta.tarjeta--azul.acordion__activo
+  background-color: #FFF7D6 !important
+
+
