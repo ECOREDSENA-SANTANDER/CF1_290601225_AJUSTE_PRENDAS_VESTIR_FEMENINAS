@@ -40,13 +40,13 @@
         .col-lg-4
           ul.lista-ul--color
             li.d-flex
-              i.fas.fa-angle-right
+              i.fas.fa-angle-right2
               p.mb-0 Por comportamiento: se identifican clientes decididos, analíticos, expresivos o reservados. 
             li.d-flex
-              i.fas.fa-angle-right
+              i.fas.fa-angle-right2
               p.mb-0 Según la relación: pueden ser nuevos, frecuentes o leales.
             li.d-flex
-              i.fas.fa-angle-right
+              i.fas.fa-angle-right2
               p.mb-0 En términos económicos: se diferencian clientes de alto valor, estratégicos o de bajo impacto.
           p Esta clasificación permite ajustar la atención, mejorar la experiencia del servicio y optimizar la relación comercial. 
 
@@ -398,10 +398,10 @@
           .col-lg-6.mb-4.mb-md-0
             ul.lista-ul--color
               li.d-flex
-                i.fas.fa-angle-right
+                i.fas.fa-angle-right2
                 p Lenguaje claro y directo: uso de términos sencillos y accesibles que faciliten la comprensión general, incluso para personas que utilizan tecnologías de asistencia como lectores de pantalla. 
               li.d-flex
-                i.fas.fa-angle-right
+                i.fas.fa-angle-right2
                 p Adecuación del tono y registro: ajuste del nivel de formalidad y del estilo comunicativo según el contexto y las características de la persona receptora.
           .col-md-6
             figure
@@ -416,17 +416,17 @@
           .col-lg-6
              ul.lista-ul--color
               li.d-flex
-                i.fas.fa-angle-right
+                i.fas.fa-angle-right2
                 p.texto-izquierda Preguntas abiertas: formulación de preguntas que inviten a respuestas amplias y detalladas (por ejemplo: ¿cómo describiría el ajuste ideal para usted?), lo que permite captar mejor sus expectativas.
 
               li.d-flex
-                i.fas.fa-angle-right
+                i.fas.fa-angle-right2
                 p.texto-izquierda Retroalimentación activa: confirmación de lo entendido mediante paráfrasis o resúmenes, (ejemplo: entonces, prefiere una prenda que no se adhiera tanto al cuerpo, ¿es correcto?).
           .py-2
           .col-md-12
              ul.lista-ul--color
               li.d-flex
-                i.fas.fa-angle-right
+                i.fas.fa-angle-right2
                 p.texto-izquierda Elementos no verbales y paraverbales: regulación del tono de voz, pausas, ritmo y entonación para reforzar la claridad del mensaje y brindar acompañamiento emocional, especialmente útil en la comunicación presencial.
         
 
@@ -483,18 +483,18 @@
           p El registro sistemático y detallado de la información de la persona cliente es esencial para asegurar la precisión, coherencia y trazabilidad a lo largo del proceso de confección y ajuste de prendas. La información se organiza en una ficha técnica, la cual debe incluir datos fundamentales como: 
           ul.lista-ul--color
             li.d-flex.mb-0
-              i.fas.fa-angle-right
+              i.fas.fa-angle-right2
               p.mb-0 Medidas anatómicas (contorno de busto, cintura, cadera).
             li.d-flex.mb-0
-              i.fas.fa-angle-right
+              i.fas.fa-angle-right2
               p.mb-0 Tipología de silueta.
 
             li.d-flex.mb-0
-              i.fas.fa-angle-right
+              i.fas.fa-angle-right2
               p.mb-0 Inclinación de hombros.
 
             li.d-flex.mb-0
-              i.fas.fa-angle-right
+              i.fas.fa-angle-right2
               p.mb-0 Observaciones específicas sobre la caída, ajuste y comportamiento de los textiles.
         .col-lg-3.mb-4.col-9
           img(src='@/assets/curso/Tema1/img19.svg', alt='')
