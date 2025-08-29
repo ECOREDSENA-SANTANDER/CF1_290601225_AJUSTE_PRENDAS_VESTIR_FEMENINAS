@@ -17,13 +17,13 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Tipos de cliente y técnicas de comunicación.',
+      tema: 'Tipos de cliente y técnicas de comunicación',
       titulo: 'Cuestionario',
       introduccion:
         '<b> Objetivo:</b> identificar los tipos de cliente en el sector de ajuste de prendas de vestir teniendo en cuenta las técnicas de atención y comunicación.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,

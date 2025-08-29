@@ -5,13 +5,12 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 1
-        h1 Desarrollo de contenidos
+        h1 El cliente
     
       .bg-5.mb-5(data-aos="fade-left")
         .row.align-items-center 
           .col-lg-7
             .p-4.p-lg-5
-              h4.mb-2.bg-15.text-white.col-lg-2.text-center El cliente
               p El concepto de cliente se tomará en este espacio como #[b “persona cliente”] el cual engloba a cualquier individuo, colectivo u organización que, al identificar una necesidad, expectativa o dificultad concreta, opta por transferir recursos monetarios o de otra índole a cambio de una solución presentada como producto, servicio o experiencia. Hoy en día, se reconoce que la persona cliente no se limita a consumir lo que la entidad pone a disposición, sino que interviene de manera activa en la generación de valor: aporta información relevante, evalúa la propuesta y colabora en su perfeccionamiento continuo.
               p.mb-0 Desde un enfoque relacional, la interacción con la persona cliente se entiende como un proceso evolutivo que abarca todas las etapas del ciclo de consumo. Dichas etapas incluyen el reconocimiento de la necesidad, la exploración de alternativas, la adquisición, el uso o disfrute y todo lo que implica el servicio postventa. Para cada fase se diseñan estrategias específicas, dado que las expectativas y demandas varían conforme avanza la experiencia.
           .col-lg-5.col-md-12.d-none.d-lg-block
@@ -26,7 +25,7 @@
           img.mb-3.d-none.d-lg-block(src='@/assets/curso/Tema1/figura1.png', alt='Dos personas están de pie frente a frente. Una sostiene una caja con el texto “donation clothes” en el centro. La otra persona tiene los brazos ligeramente abiertos. En el fondo varias cajas apiladas, una prenda colgada en un perchero y una planta junto a una mesa.')
         .col-lg-6
           p En el ámbito de la confección, la persona cliente constituye el eje central de todo el proceso productivo, es quien adquiere una prenda, sea de manera individual, colectiva o empresarial, define los parámetros de diseño, ajuste, calidad y sostenibilidad que guiarán desde la planificación de la colección hasta la entrega final. Su requerimiento coordina las áreas de diseño, patronaje, aprovisionamiento y mercadeo, transformando la creación de valor en una relación bidireccional que sostiene tanto la rentabilidad como la reputación de la marca.
-          p.bg-1.p-4 la etapa de ajuste de prendas, la comprensión de la persona cliente  es fundamental para articular cada intervención, pues con el análisis detallado de sus expectativas funcionales, estéticas y sensoriales, el equipo de confección traduce esas necesidades en modificaciones precisas de silueta, patrón y acabados. La aproximación técnica garantiza que ajustes como entalles, variaciones de largo o modificaciones de la caída cumplan con los estándares de confort, usabilidad y satisfacción del cliente, fortaleciendo así el vínculo de confianza mutua.
+          p.bg-1.p-4 En la etapa de ajuste de prendas, la comprensión de la persona cliente  es fundamental para articular cada intervención, pues con el análisis detallado de sus expectativas funcionales, estéticas y sensoriales, el equipo de confección traduce esas necesidades en modificaciones precisas de silueta, patrón y acabados. La aproximación técnica garantiza que ajustes como entalles, variaciones de largo o modificaciones de la caída cumplan con los estándares de confort, usabilidad y satisfacción del cliente, fortaleciendo así el vínculo de confianza mutua.
 
       Separador
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -64,7 +63,7 @@
       .tarjeta.bg-3.p-3.py-md-4(data-aos="fade").mb-3
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/Tema1/video.svg")
+            img(src="@/assets/curso/Tema1/pdf.svg")
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0

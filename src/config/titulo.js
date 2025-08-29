@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'El cliente y la estructura corporal femenina'
