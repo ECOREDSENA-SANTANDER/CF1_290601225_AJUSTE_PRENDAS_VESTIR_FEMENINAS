@@ -34,7 +34,7 @@
                     h5 Figura 17. 
                     span Antropometría femenina
                   figure
-                    img(src='@/assets/curso/Tema3/figura17.jpg', alt='Esquema anatómico de una mujer con medidas antropométricas, destacando proporciones corporales clave. Estos datos son esenciales para el diseño ergonómico, el patronaje y estudios biomecánicos.')
+                    img(src='@/assets/curso/Tema3/figura17.svg', alt='Esquema anatómico de una mujer con medidas antropométricas, destacando proporciones corporales clave. Estos datos son esenciales para el diseño ergonómico, el patronaje y estudios biomecánicos.')
               
               .row.justify-content-center.align-items-center(titulo="Anatomía")
                 .col-lg-6.mb-4.mb-md-0
@@ -46,8 +46,8 @@
                     h5 Figura 18. 
                     span Anatomía del cuerpo
                   figure
-                    img(src='@/assets/curso/Tema3/figura18.png', alt='Cuerpo femenino con los músculos expuestos en vista frontal y posterior. Se distinguen los principales grupos musculares del torso, brazos y piernas, evidenciando su estructura y distribución en el cuerpo.')
-                  figcaption Fuente: SENA, (2025)Fuente: tomado de https://es.pinterest.com/pin/762163936973032561/
+                    img(src='@/assets/curso/Tema3/figura18.svg', alt='Cuerpo femenino con los músculos expuestos en vista frontal y posterior. Se distinguen los principales grupos musculares del torso, brazos y piernas, evidenciando su estructura y distribución en el cuerpo.')
+                 
               .row.justify-content-center.align-items-center(titulo="Biomecánica")
                 .col-lg-8
                   h4.mb-4 Biomecánica
@@ -71,7 +71,7 @@
               .row.justify-content-center.align-items-center(titulo="Ergonomía")
                 .col-lg-6.mb-4.mb-md-0
                   h4.mb-4 Ergonomía
-                  p La ergonomía es contemplada como una disciplina científica que se encarga de estudiar las interacciones entre seres humanos y elementos de un sistema (International Ergonomics Association, 2000), aplicada a partir de teorías, principios y métodos cuyo fin es el bienestar humano. La relación de la ergonomía y las prendas de vestir está dada a partir del confort que estas pueden darle al cuerpo humano con el objetivo de mejorar el rendimiento en relación al desempeño de las actividades diarias, su propósito es que se pueda desenvolver a partir de la comodidad, funcionalidad y adaptabilidad, también incluye la prevención de molestias o enfermedades que puedan derivarse de un mal uso de una prenda que no esté elaborada y pensada para el movimiento, por ejemplo: un pantalón que no permita el movimiento de la rodilla puede acarrear molestias o dolores articulares. 
+                  p La ergonomía es contemplada como una disciplina científica que se encarga de estudiar las interacciones entre seres humanos y elementos de un sistema (#[em International Ergonomics Association], 2000), aplicada a partir de teorías, principios y métodos cuyo fin es el bienestar humano. La relación de la ergonomía y las prendas de vestir está dada a partir del confort que estas pueden darle al cuerpo humano con el objetivo de mejorar el rendimiento en relación al desempeño de las actividades diarias, su propósito es que se pueda desenvolver a partir de la comodidad, funcionalidad y adaptabilidad, también incluye la prevención de molestias o enfermedades que puedan derivarse de un mal uso de una prenda que no esté elaborada y pensada para el movimiento, por ejemplo: un pantalón que no permita el movimiento de la rodilla puede acarrear molestias o dolores articulares. 
                 
                 .col-lg-6
                   p Es por lo anterior, que en la moda uno de los objetivos a perseguir es poder proporcionar modelos de prendas ergonómicos con procesos de confección, en donde el estudio de materiales para su construcción resulta ser uno de los puntos tácticos en este proceso. 
@@ -87,9 +87,9 @@
                       li
                         i.fas.fa-angle-right2
                         | #[b Biomecánica:]   corresponde al movimiento corporal.
-                      li
+                      li.d-flex
                         i.fas.fa-angle-right2
-                        | #[b Morfología: ]   hace referencia a la geometría del cuerpo (huesos y uniones).
+                        p.mb-0 #[b Morfología: ]   hace referencia a la geometría del cuerpo (huesos y uniones).
 
                       li
                         i.fas.fa-angle-right2
@@ -112,8 +112,8 @@
               h5 Figura 20.
               span  Tipos de silueta femeninas
           .col-lg-8
-            img(src='@/assets/curso/Tema3/figura20.svg', alt='')
-        figcaption Fuente: tomado de https://www.personalshopperzaragoza.com/blog/2020/03/13/tipos-de-siluetas-femeninas/ 
+            img(src='@/assets/curso/Tema3/figura20.svg', alt='Cinco figuras femeninas con diferentes tipos de siluetas corporales, cada una asociada con un símbolo geométrico. Estas formas incluyen reloj de arena (X), óvalo (O), triángulo invertido (V), triángulo (A) y rectángulo (I). La ilustración destaca la diversidad de proporciones corporales y su clasificación, utilizada comúnmente en moda, diseño de ropa y análisis de morfología corporal.')
+        figcaption.text-regular Fuente: tomado de https://www.personalshopperzaragoza.com/blog/2020/03/13/tipos-de-siluetas-femeninas/ 
 
     p.mb-4 Se describe cada silueta iniciando de izquierda a derecha: 
 
@@ -123,22 +123,30 @@
         .col-lg-8
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="a)	Silueta reloj de arena")
-              .col-md-12.mb-4.mb-md-0
+              .col-md-7.mb-4.mb-md-0
                 p Se caracteriza e identifica principalmente por tener más volumen en los hombros y las caderas, estas partes tendrán un ancho muy similar, haciendo que el torso se vea más reducido.  En el cuerpo femenino suele percibirse a partir de curvas pronunciadas y proporcionadas al peso corporal. 
-
+              .col-md-5.mb-4.mb-md-0
+                img(src="@/assets/curso/Tema3/1.svg")
             .row(titulo="b) Silueta ovalada")
-              .col-md-12.mb-4.mb-md-0
+              .col-md-7.mb-4.mb-md-0
                 p Se caracteriza por tener mayor volumen en el área abdominal de la mujer, es decir, se encontrará una figura poco definida con busto prominente y cadera más estrecha. Las piernas se percibirán un poco más delgadas con relación a la proporción del torso. 
+              .col-md-5.mb-4.mb-md-0
+                img(src="@/assets/curso/Tema3/2.svg")
             .row(titulo="c)	Silueta triangulo invertido")
-              .col-md-12.mb-4.mb-md-0
+              .col-md-7.mb-4.mb-md-0
                 p Se caracteriza por tener los hombros más anchos que las caderas, es decir, es opuesto a la silueta anterior, en este caso se encuentra una cintura menos definida y piernas más delgadas, es común encontrar cuerpos femeninos en esta silueta con espalda ancha y busto prominente. 
+              .col-md-5.mb-4.mb-md-0
+                img(src="@/assets/curso/Tema3/3.svg")
             .row(titulo="d)	Silueta triangular o tipo pera")
-              .col-md-12.mb-4.mb-md-0
+              .col-md-7.mb-4.mb-md-0
                 p Se caracteriza por tener las caderas más anchas que los hombros, en este caso la cintura se percibe más definidamente.  La parte superior suele tener un busto pequeño, lo que genera que la parte inferior se evidencie más prominente. 
-            .row(titulo="e)	Silueta rectangular: ")
-              .col-md-12.mb-4.mb-md-0
+              .col-md-5.mb-4.mb-md-0
+                img(src="@/assets/curso/Tema3/4.svg")
+            .row(titulo="e)	Silueta rectangular")
+              .col-md-7.mb-4.mb-md-0
                 p Se caracteriza por tener los hombros, la cintura y la cadera con medidas de anchos similares, es decir, las curvas en este tipo de silueta se presentan más reducidas, formando más líneas semirrectas en la anatomía femenina. 
-        
+              .col-md-5.mb-4.mb-md-0
+                img(src="@/assets/curso/Tema3/5.svg")
 
 
     .tarjeta.bg-3.p-3.py-md-4(data-aos="fade").mb-3
@@ -149,7 +157,7 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 h4.mb-1.bg1color Estructura del cuerpo
-                p.mb-0.text-white Para ampliar y profundizar en los contenidos abordados, se recomienda consultar el siguiente enlace :
+                p.mb-0.text-white Para ampliar y profundizar en los contenidos abordados, se recomienda consultar el siguiente enlace
               .col-sm-auto
                 a.boton.color-acento-botones(:href="('https://youtu.be/9UZwjgAYxMY')" target="_blank")
                   span Ir al video
@@ -178,14 +186,14 @@
             .col-lg-5.mb-4.mb-md-0
               p A nivel internacional y nacional se plantean diversas normas para la toma de medidas corporales, entre las que se encuentran: 
               p Norma Técnica Colombiana NTC-ISO 8559:1995. Fabricación de vestuario y estudios antropométricos. Dimensiones corporales.
-           
+              p Norma UNE-EN 13402-3. Etiquetado de tallas de prendas de vestir, enfocadas al beneficio del consumidor. 
             .col-md-5.col-10
               img(src='@/assets/curso/Tema3/img07.png', alt='')
        
     .tarjeta.bg-3.p-3.py-md-4(data-aos="fade").mb-3
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/Tema1/video.svg")
+            img(src="@/assets/curso/Tema1/descargar.svg")
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
@@ -194,13 +202,13 @@
               .col-lg-3.mb-3.mb-sm-0    
                 h4.mb-1.bg1color Medidas anatómicas
               .col-lg-3.mb-3
-                a.boton.color-acento-botones(:href="obtenerLink('/downloads/1_Anexo.pdf')" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('/downloads/Medidas_anatómicas.pdf')" target="_blank")
                   span Descargar 
                   i.fas.fa-download
               .col-lg-3.mb-3.mb-sm-0    
                 h4.mb-1.bg1color Análisis de tallas y medidas
               .col-lg-3
-                a.boton.color-acento-botones(:href="obtenerLink('/downloads/1_Anexo.pdf')" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('/downloads/Análisis_de_tallas_y_medidas.pdf')" target="_blank")
                   span Descargar 
                   i.fas.fa-download
 
@@ -211,43 +219,36 @@
     .row.justify-content-center(data-aos='fade-right')
       .col-lg-3.col-7.mb-4
         img(src='@/assets/curso/Tema3/img08.png', alt='')
-      .col-lg-9
+      .col-lg-6
         p El análisis ergonómico constituye el punto de partida en todo levantamiento de medidas. El personal de confección identifica en primer lugar la silueta global, continúa con la evaluación de la proporción, entre las diferentes regiones corporales y finaliza con el registro de la estatura, variable que orienta el dimensionamiento de bolsillos, botones, cruces y demás detalles constructivos conforme a la escala de la figura. Aplicada de manera sistemática, esta secuencia metodológica favorece una imagen estética equilibrada en la persona usuaria.
         .row
-          .col-lg-8
+          .col-lg-12
             p.bg-14.p-4 Aunque la historia del mestizaje genera gran variabilidad morfológica, los estudios antropométricos siguen reconociendo conjuntos poblacionales con rasgos físicos recurrentes, como tono de piel, estatura o envergadura torácica. Por ejemplo, algunas investigaciones sitúan la estatura masculina promedio en varios países europeos cerca de 1.80 m y describen una contextura relativamente esbelta, mientras que en regiones latinoamericanas se documenta un promedio aproximado de 1.72 m y una complexión más robusta. Estos rangos ilustran la necesidad de adaptar patrones y escalas a contextos demográficos específicos.
-            p La postura corporal también varía de forma significativa a lo largo del ciclo vital. Con la edad, la curvatura dorsal tiende a incrementarse y la alineación axial pierde verticalidad, a diferencia de la disposición más lineal que caracteriza a personas jóvenes. Incorporar tales cambios posturales en la lectura morfológica garantiza que los ajustes respondan tanto a la ergonomía como a la estética.
-            p Integrar estos parámetros en un análisis ergonómico permite determinar con rigor los puntos de variación que deben ejecutarse en la prenda, asegurando funcionalidad, confort y coherencia visual para la clientela.
-          .col-lg-4.col-12.mb-3
-            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 21. 
-              span Fenotipos
-            img(src='@/assets/curso/Tema3/figura21.png', alt='Ilustración comparativa de tres figuras femeninas de frente, cada una con diferente estatura: una mide 1.80 metros, otra 1.70 metros y la última 1.60 metros. Cada figura está dividida en segmentos horizontales iguales desde la cabeza hasta los pies, indicando proporciones corporales en relación con la altura total.')
-            figcaption.text-small Fuente: https://plasticamentebilingue.blogspot.com/2020/05/el-cuerpo-humano-mi-version-de-keith.html
+            
+      .col-lg-3.col-12.mb-3
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Figura 21. 
+          span Fenotipos
+        img(src='@/assets/curso/Tema3/figura21.svg', alt='Ilustración comparativa de tres figuras femeninas de frente, cada una con diferente estatura: una mide 1.80 metros, otra 1.70 metros y la última 1.60 metros. Cada figura está dividida en segmentos horizontales iguales desde la cabeza hasta los pies, indicando proporciones corporales en relación con la altura total.')
+      .col-lg-12 
+        p La postura corporal también varía de forma significativa a lo largo del ciclo vital. Con la edad, la curvatura dorsal tiende a incrementarse y la alineación axial pierde verticalidad, a diferencia de la disposición más lineal que caracteriza a personas jóvenes. Incorporar tales cambios posturales en la lectura morfológica garantiza que los ajustes respondan tanto a la ergonomía como a la estética.
+        p Integrar estos parámetros en un análisis ergonómico permite determinar con rigor los puntos de variación que deben ejecutarse en la prenda, asegurando funcionalidad, confort y coherencia visual para la clientela.
         
 
     .subt.mb-4(data-aos="fade")
         img(src="@/assets/curso/Tema1/figura_subt.svg")
         h3.ps-3.pe-4.mb-0 Evolución del cuerpo humano
-
-    .row.justify-content-center.align-items-center.mb-4(data-aos='fade-right')
-      .col-lg-5.bg-2.p-4.mb-3
-        p.p-4 El cuerpo humano experimenta transformaciones a lo largo del crecimiento y, de manera aún más marcada, durante el envejecimiento. Factores como la edad, determinadas patologías, los accidentes y los hábitos alimentarios influyen en estas variaciones morfológicas. Para lograr un ajuste preciso en una prenda resulta imprescindible reconocer dichas alteraciones y comprender cómo afectan la silueta, de modo que las modificaciones de confección respondan con exactitud a las necesidades de cada persona.
-      .col-lg-7
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 22. 
-          span  Tipos de cuerpo
-        img(src='@/assets/curso/Tema3/figura22.png', alt='Ilustración con cinco figuras femeninas que representan diferentes tipologías corporales. En la parte superior se muestran tres vistas frontales: una delgada, una de complexión media y otra más ancha. En la parte inferior, hay una figura de perfil con mayor volumen corporal junto a una figura de complexión media vista de frente, ambas alineadas sobre una base para comparación.')
-        figcaption Fuente: https://es.123rf.com/photo_74730255_tipos-constituci%C3%B3n-del-cuerpo-femenino-peso-normal-y-delgada-figura-de-la-grasa-de-una-mujer-ectomorfo-.html
-
-    p.mb-3 En cuanto a la contextura corporal, la literatura clasifica tres configuraciones básicas que sirven de referencia para el patronaje: 
-
-
     .bg-28.mb-4(data-aos="fade-left")
       .row.align-items-center 
         .col-lg-5.col-md-12.d-none.d-lg-block
           img(src='@/assets/curso/Tema3/img09.png', alt='')
-        .col-lg-7.p-4
+        .col-lg-6.p-4
+          p El cuerpo humano experimenta transformaciones a lo largo del crecimiento y, de manera aún más marcada, durante el envejecimiento. Factores como la edad, determinadas patologías, los accidentes y los hábitos alimentarios influyen en estas variaciones morfológicas. Para lograr un ajuste preciso en una prenda resulta imprescindible reconocer dichas alteraciones y comprender cómo afectan la silueta, de modo que las modificaciones de confección respondan con exactitud a las necesidades de cada persona.
+    
+    p.mb-4 En cuanto a la contextura corporal, la literatura clasifica tres configuraciones básicas que sirven de referencia para el patronaje: 
+    
+    .row.justify-content-center.align-items-center.mb-4(data-aos='fade-right')
+      .col-lg-5.mb-3
           ul.lista-ul
             li.d-flex.mb-0
               i.fas.fa-angle-right2
@@ -262,6 +263,17 @@
               i.fas.fa-angle-right2
               p #[b Contextura mesomórfica:] exhibe músculos prominentes especialmente en la parte superior, de igual manera su apariencia suele ser robusta o gruesa. 
           p Reconocer estas tipologías facilitas la toma de decisiones técnicas y propicia resultados funcionales, confortables y coherentes con la imagen deseada por la clientela.
+      .col-lg-7
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Figura 22. 
+          span  Tipos de cuerpo
+        img(src='@/assets/curso/Tema3/figura22.svg', alt='Ilustración con cinco figuras femeninas que representan diferentes tipologías corporales. En la parte superior se muestran tres vistas frontales: una delgada, una de complexión media y otra más ancha. En la parte inferior, hay una figura de perfil con mayor volumen corporal junto a una figura de complexión media vista de frente, ambas alineadas sobre una base para comparación.')
+       
+
+    
+
+
+    
     
     .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
       .col-lg-4.bg-16.p-4.mb-4
@@ -276,7 +288,7 @@
             p La curvatura torácica se acentúa hacia adelante, provocando la inclinación del tronco y la retracción del tórax. Esta disposición genera un pecho plano y desplaza el centro de gravedad, lo que puede afectar la comodidad y la caída de las prendas.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Porte convexo")
             h4 Porte convexo
-            p la parte media de la espalda se proyecta hacia atrás. La cabeza tiende a elevarse y a desplazarse en sentido posterior, el tórax evidencia mayor desarrollo y las costillas aparecen planas. Esta morfología confiere un perfil prominente en la región dorsal.
+            p La parte media de la espalda se proyecta hacia atrás. La cabeza tiende a elevarse y a desplazarse en sentido posterior, el tórax evidencia mayor desarrollo y las costillas aparecen planas. Esta morfología confiere un perfil prominente en la región dorsal.
     .subt.mb-4(data-aos="fade")
       img(src="@/assets/curso/Tema1/figura_subt.svg")
       h3.ps-3.pe-4.mb-0 Variaciones corporales
@@ -298,8 +310,8 @@
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 23.  
               span Inclinación del cuerpo
-            img(src='@/assets/curso/Tema3/figura23.png', alt='Tres figuras humanas masculinas en vista lateral. Cada una presenta una postura diferente: la primera con inclinación hacia adelante, la segunda con alineación vertical recta y la tercera con leve inclinación hacia atrás.')
-            figcaption Fuente: (Alarcón, 2014) Anexo 3 
+            img(src='@/assets/curso/Tema3/figura23.svg', alt='Tres figuras humanas masculinas en vista lateral. Cada una presenta una postura diferente: la primera con inclinación hacia adelante, la segunda con alineación vertical recta y la tercera con leve inclinación hacia atrás.')
+            figcaption.text-regular Fuente: (Alarcón, 2014). Anexo 3 
           .col-10.col-lg-4
             h4 En la inclinación del cuerpo se encuentran
             ul.lista-ul--color
@@ -319,8 +331,8 @@
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 24.  
               span Postura en piernas
-            img(src='@/assets/curso/Tema3/figura24.png', alt='Dos figuras masculinas de frente. La primera tiene postura relajada con pies ligeramente separados y brazos extendidos a los lados. La segunda presenta una silueta más alargada, con pies más juntos y brazos cercanos al cuerpo.')
-            figcaption Fuente: (Alarcón, 2014) Anexo1_sastreria_Masculina Página 24
+            img(src='@/assets/curso/Tema3/figura24.svg', alt='Dos figuras masculinas de frente. La primera tiene postura relajada con pies ligeramente separados y brazos extendidos a los lados. La segunda presenta una silueta más alargada, con pies más juntos y brazos cercanos al cuerpo.')
+            figcaption.text-regular Fuente: (Alarcón, 2014). Anexo1_sastreria_Masculina. Página 24
           .col-10.col-lg-4
             h4 Con relación a las piernas se encuentran
             ul.lista-ul--color
@@ -338,8 +350,8 @@
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 25.  
               span Conformaciones de los hombros
-            img(src='@/assets/curso/Tema3/figura25.png', alt='Tres figuras humanas masculinas en vista lateral. Cada una presenta una postura diferente: la primera con inclinación hacia adelante, la segunda con alineación vertical recta y la tercera con leve inclinación hacia atrás.')
-            figcaption Fuente: (Alarcón, 2014) Anexo 3 
+            img(src='@/assets/curso/Tema3/figura25.svg', alt='Tres figuras humanas masculinas en vista lateral. Cada una presenta una postura diferente: la primera con inclinación hacia adelante, la segunda con alineación vertical recta y la tercera con leve inclinación hacia atrás.')
+            figcaption.text-regular Fuente: (Alarcón, 2014). Anexo 3 
           .col-10.col-lg-5
             h4 En las conformaciones de los hombros se encuentran
             ul.lista-ul--color
@@ -361,8 +373,8 @@
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 26.  
               span Conformaciones de los hombros
-            img(src='@/assets/curso/Tema3/figura26.png', alt='Tres figuras masculinas en vista lateral. La primera mantiene una postura erguida, la segunda muestra el torso inclinado hacia adelante con abdomen prominente, y la tercera presenta una inclinación general hacia adelante con curvatura en la espalda.')
-            figcaption Fuente: (Alarcón, 2014) Anexo3_ Página 26
+            img(src='@/assets/curso/Tema3/figura26.svg', alt='Tres figuras masculinas en vista lateral. La primera mantiene una postura erguida, la segunda muestra el torso inclinado hacia adelante con abdomen prominente, y la tercera presenta una inclinación general hacia adelante con curvatura en la espalda.')
+            figcaption.text-regular Fuente: (Alarcón, 2014). Anexo 3. Página 26
           .col-10.col-lg-5
             h4 Conformaciones del pecho
             ul.lista-ul--color
@@ -388,7 +400,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 27. 
           span  Medición
-        img(src='@/assets/curso/Tema3/figura27.png', alt='')
+        img(src='@/assets/curso/Tema3/figura27.png', alt='Una persona sostiene una cinta métrica alrededor de la cintura de otra, quien se encuentra de pie con una mano apoyada sobre el pecho y la otra sobre el abdomen. Al fondo hay estanterías con prendas dobladas y colgadas.')
       .col-lg-7
         p La medición de una prenda puede realizarse en dos contextos: durante su construcción desde el patrón base o al intervenir una pieza ya confeccionada para efectuar ajustes. Cuando el cliente agenda su cita en el taller, se recomienda que asista con la ropa interior que utiliza habitualmente; ello permite establecer con mayor precisión la altura de busto y el contorno torácico en el caso de prendas femeninas. Una vez documentado el análisis antropométrico del cliente, el modisto evalúa la prenda según su tipología, el tipo de tejido y los detalles constructivos, de modo que las recomendaciones formuladas se alineen con la silueta y los requerimientos funcionales.
         .row.justify-content-center.align-items-center.bg-14.p-4
@@ -413,7 +425,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 28. 
           span  Maniquí de costura
-        img(src='@/assets/curso/Tema3/figura28.png', alt='')
+        img(src='@/assets/curso/Tema3/figura28.png', alt='Persona de perfil mide con cinta métrica un vestido colocado en un maniquí. La cinta se extiende desde el hombro hasta la cintura. Al fondo hay un tablero con hojas sujetas y dibujos técnicos.')
 
 
     .row.justify-content-center.align-items-center.mb-4(data-aos='fade-right')
@@ -421,7 +433,7 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 29. 
           span  Medidas sobre superficie plana
-        img(src='@/assets/curso/Tema3/figura29.png', alt='')
+        img(src='@/assets/curso/Tema3/figura29.png', alt='Persona inclinada sobre una mesa extiende una tela con líneas marcadas. Una mano sostiene una cinta métrica y la otra un instrumento de trazado. Sobre la superficie hay regla metálica, tiza de sastre, carrete de hilo y cuaderno.')
       .col-lg-8.bg-30.p-4 
         br
         br

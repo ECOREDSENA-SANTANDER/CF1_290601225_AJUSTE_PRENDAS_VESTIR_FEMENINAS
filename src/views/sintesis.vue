@@ -8,7 +8,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Descripción imagen")
+          img(src="@/assets/curso/sintesis.svg", alt="La síntesis organiza los elementos clave para el diseño y confección de prendas femeninas, agrupados en tres ejes: características del cliente, tipología de prendas y estructura corporal femenina. Se abordan temas como atención al cliente, tipos de vestuario, ajustes, textiles, medidas, siluetas y análisis ergonómico, destacando la relación entre el cuerpo, la prenda y las necesidades de quien la usa. ")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

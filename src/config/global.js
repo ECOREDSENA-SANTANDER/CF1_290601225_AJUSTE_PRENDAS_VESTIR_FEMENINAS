@@ -327,7 +327,7 @@ export default {
       autores: [
         {
           nombre: 'Paola Angélica Castro Salazar ',
-          cargo: 'Experta en confección ',
+          cargo: 'Experta temática',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -351,8 +351,8 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Animador y productor audiovisual',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -361,7 +361,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
