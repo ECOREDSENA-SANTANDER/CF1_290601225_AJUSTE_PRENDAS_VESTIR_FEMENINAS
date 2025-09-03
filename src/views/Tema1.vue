@@ -58,7 +58,7 @@
           .col-lg-8.mb-2 
             img(src='@/assets/curso/Tema1/figura2.svg', alt='La figura presenta una pirámide dividida en cinco niveles, donde cada uno representa un aspecto clave relacionado con la clasificación de clientes. De forma ascendente, se abordan los siguientes elementos: la mejor opción para la clasificación de clientes, los riesgos de no categorizar a los clientes, los beneficios de la clasificación, la importancia de categorizar y, en la cúspide, la comprensión de los diferentes tipos de clientes. Este enfoque jerárquico destaca la progresión necesaria para una gestión estratégica y efectiva del cliente.')
       .col-lg-12.mb-4
-        figcaption Fuente: https://fastercapital.com/es/i-es/Categorizacion-de-inversores-MiFID--como-clasificar-a-los-clientes--La-importancia-de-la-clasificaci-n-de-clientes.webp
+        figcaption.text-regular Fuente: https://fastercapital.com/es/i-es/Categorizacion-de-inversores-MiFID--como-clasificar-a-los-clientes--La-importancia-de-la-clasificaci-n-de-clientes.webp
 
       .tarjeta.bg-3.p-3.py-md-4(data-aos="fade").mb-3
         .row.justify-content-around.align-items-center
@@ -178,7 +178,7 @@
       .row.justify-content-center.mb-4(data-aos="fade-left")
         .col-lg-3
           p.bg-16.p-4.mb-3 En modistería, la persona cliente para ajuste de prendas puede agruparse atendiendo a sus necesidades, frecuencia de servicio y perfil de exigencia. A continuación, se describen las categorías más relevantes:
-          img(src='@/assets/curso/Tema1/img20.png', alt='')
+          img.d-none.d-lg-block(src='@/assets/curso/Tema1/img20.png', alt='')
         .col-lg-9
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Persona cliente puntual")
@@ -204,13 +204,13 @@
                 p A diferencia de la simple corrección de medidas, solicita la modificación estructural del patrón base para adaptar el diseño a cambios corporales, estados posturales o necesidades especiales (por ejemplo, tallas inclusivas). Requiere un diagnóstico inicial detallado y varias sesiones de prueba.
 
       
-      .row.justify-content-center.mb-5
+      .row.justify-content-center.mb-2
         .col-lg-4 
           p.bg-11.p-4 Cada uno de estos perfiles implica protocolos de atención, tiempos de servicio y niveles de detalle distintos. Clasificar a la persona cliente en estas tipologías permite al taller de modistería optimizar recursos, definir cotizaciones precisas y garantizar un resultado que responda de manera adecuada a las expectativas funcionales, estéticas y temporales.
         .col-lg-8
           .titulo-sexto.color-acento-contenido
             h5 Figura 4. 
-            span Relación con el cliente
+            span Clientes en la moda
           .col-lg-12
             img(src="@/assets/curso/Tema1/img06.svg", alt='Ocho personas interactúan en diferentes situaciones relacionadas con la compra de ropa. En la parte superior izquierda, dos personas observan una prenda; una de ellas la sostiene frente a la otra. En el centro superior, una persona está en un punto de pago con otra detrás del mostrador. A la derecha, una persona ofrece una prenda a otra. En la parte inferior izquierda, una persona sostiene varias bolsas en ambas manos. En el centro inferior, otra también lleva múltiples bolsas. A la derecha, dos personas observan un vestido colocado en un maniquí.')
     
@@ -219,7 +219,7 @@
         h2 1.2  Técnicas de atención al cliente
 
       .row.justify-content-center.align-items-center.mb-2(data-aos="fade-left")
-        .col-lg-5.col-md-8
+        .col-lg-5.col-md-8.col-10
           img.mb-3(src='@/assets/curso/Tema1/img07.png', alt='')
         .col-lg-7
           p Las técnicas de atención al cliente constituyen un conjunto de prácticas estructuradas que permiten a las organizaciones y talleres de servicio comprender, acompañar y satisfacer las expectativas de las personas usuarias de manera efectiva. Desde la escucha activa y la empatía profesional hasta la comunicación transparente y el seguimiento postventa, cada método se orienta a fortalecer la relación con la persona usuaria, garantizando claridad en los procesos, personalización en las soluciones y resolución ágil de inconvenientes. 
@@ -345,7 +345,7 @@
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 5. 
             span Atención al cliente en modistería
-        .col-lg-8.col-md-7
+        .col-lg-8.col-md-7.col-10
           img(src='@/assets/curso/Tema1/img14.png', alt='Dos personas están de pie, una al lado de la otra. Una de ellas sostiene una tela doblada sobre el hombro de la otra, quien permanece erguida con expresión tranquila. Frente a ambas hay una mesa con varias telas organizadas en capas, hojas extendidas y una tarjeta con muestras en serie. Al fondo hay repisas con objetos y materiales de trabajo.')
       p.mb-4 La siguiente tabla resume las principales técnicas de atención al cliente utilizadas durante el ajuste de prendas de vestir.
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -399,7 +399,7 @@
         img(src="@/assets/curso/Tema1/figura_subt.svg")
         h3.ps-3.pe-4.mb-0 Principales técnicas de comunicación 
 
-      PasosA.color-primario.mb-5(tipo="n")
+      PasosA.color-acento-botones.mb-5(tipo="n")
         .row.align-items-center
           .col-lg-6.mb-4.mb-md-0
             ul.lista-ul--color
@@ -441,8 +441,8 @@
         img(src="@/assets/curso/Tema1/figura_subt.svg")
         h3.ps-3.pe-4.mb-0 Aplicación en el ajuste de prendas
 
-      .row.justify-content-center.mb-5(data-aos="fade-left")
-        .col-lg-8
+      .row.justify-content-center.mb-2(data-aos="fade-left")
+        .col-lg-7
           SlyderF.circl-arrow.mb-5(columnas="col-lg-6 col-xl-6")
             .tarjeta.bg-1.p-4
               .row.justify-content-center.mb-3
@@ -478,8 +478,8 @@
               h4.text-center.bg-20.p-1.mb-4 Registro verbal estructurado
               p.text-center.col-lg-11 Sistematización de las observaciones e indicaciones en la ficha técnica correspondiente.
         
-        .col-lg-3.col-7.col-md-6
-          img(src="@/assets/curso/Tema1/img18.png")
+        .col-lg-4.col-7.col-md-6.d-none.d-lg-block
+          img(src="@/assets/curso/Tema1/img018.png")
 
       separador
       #t_1_4.titulo-segundo.mb-5

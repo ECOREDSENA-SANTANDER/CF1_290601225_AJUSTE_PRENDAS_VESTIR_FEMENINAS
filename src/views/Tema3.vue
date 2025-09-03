@@ -217,7 +217,7 @@
       h2 3.3. Análisis ergonómico
 
     .row.justify-content-center(data-aos='fade-right')
-      .col-lg-3.col-7.mb-4
+      .col-lg-3.col-7.mb-4.col-md-5
         img(src='@/assets/curso/Tema3/img08.png', alt='')
       .col-lg-6
         p El análisis ergonómico constituye el punto de partida en todo levantamiento de medidas. El personal de confección identifica en primer lugar la silueta global, continúa con la evaluación de la proporción, entre las diferentes regiones corporales y finaliza con el registro de la estatura, variable que orienta el dimensionamiento de bolsillos, botones, cruces y demás detalles constructivos conforme a la escala de la figura. Aplicada de manera sistemática, esta secuencia metodológica favorece una imagen estética equilibrada en la persona usuaria.
@@ -225,7 +225,7 @@
           .col-lg-12
             p.bg-14.p-4 Aunque la historia del mestizaje genera gran variabilidad morfológica, los estudios antropométricos siguen reconociendo conjuntos poblacionales con rasgos físicos recurrentes, como tono de piel, estatura o envergadura torácica. Por ejemplo, algunas investigaciones sitúan la estatura masculina promedio en varios países europeos cerca de 1.80 m y describen una contextura relativamente esbelta, mientras que en regiones latinoamericanas se documenta un promedio aproximado de 1.72 m y una complexión más robusta. Estos rangos ilustran la necesidad de adaptar patrones y escalas a contextos demográficos específicos.
             
-      .col-lg-3.col-12.mb-3
+      .col-lg-3.col-8.mb-3
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 21. 
           span Fenotipos
@@ -421,7 +421,7 @@
         br
         br
         br
-      .col-lg-7.col-md-8
+      .col-lg-7.col-md-8.col-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 28. 
           span  Maniquí de costura
@@ -429,7 +429,7 @@
 
 
     .row.justify-content-center.align-items-center.mb-4(data-aos='fade-right')
-      .col-lg-4.mb-4.col-md-8
+      .col-lg-4.mb-4.col-md-8.col-10
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 29. 
           span  Medidas sobre superficie plana
