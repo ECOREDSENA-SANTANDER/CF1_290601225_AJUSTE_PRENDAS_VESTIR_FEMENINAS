@@ -102,9 +102,7 @@
         .col-lg-4.col-7.col-md-6
           img(src="@/assets/curso/Tema1/img02.png")
 
-      .subt.mb-4(data-aos="fade")
-        img(src="@/assets/curso/Tema1/figura_subt.svg")
-        h3.ps-3.pe-4.mb-0 Según el comportamiento de compra
+      
 
       .row.justify-content-center.mb-5.fondo_t1_1.p-4(data-aos="fade-left")
         .col-lg-12.mb-4.mb-lg-0(data-aos="fade-right")
@@ -113,7 +111,9 @@
             span Relación con el cliente
         .col-lg-6.col-md-7
           img(src="@/assets/curso/Tema1/img03.svg", alt='Dos personas están sentadas frente a frente y se dan la mano sobre una mesa. Una de ellas sostiene varias bolsas con asas. Detrás hay una pantalla o cartel con íconos de comunicación y comercio, acompañados de una lista con marcas de verificación.')
-
+      .subt.mb-4(data-aos="fade")
+        img(src="@/assets/curso/Tema1/figura_subt.svg")
+        h3.ps-3.pe-4.mb-0 Según el comportamiento de compra
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
         .col-lg-7.bg-16.mb-4
           .row.justify-content-center.align-items-center
@@ -135,11 +135,11 @@
 
                 li.d-flex.mb-0
                   i.far.fa-circle
-                  h5.mb-0 Persona cliente exploradora:
+                  h5.mb-0 Persona cliente exploradora
 
                 .row
                   .col-lg-12
-                    p.px-4 Prueba productos o servicios nuevos constantemente; su feedback es valioso para innovación y desarrollo.
+                    p.px-4 Prueba productos o servicios nuevos constantemente; su #[em feedback] es valioso para innovación y desarrollo.
         .col-lg-5.col-9
           img(src='@/assets/curso/Tema1/img04.png', alt='')
 
@@ -157,7 +157,7 @@
               .tarjeta.tarjeta-btn.p-4.h-100
                 img.mb-3(src='@/assets/curso/Tema1/ico1.svg', alt='')
                 .title.mb-4
-                  h4.text-center.mb-0 Persona cliente premium
+                  h4.text-center.mb-0 Persona cliente #[em premium]
                 .row.justify-content-center.align-items-center.mb-2
                   .col-lg-10
                     p.text-center Representa un alto gasto unitario y exige estándares superiores de calidad y personalización; justifica inversiones específicas en diseño y servicio.
@@ -176,14 +176,10 @@
         h3.pb-1.mb-0 Clasificación de la persona cliente en servicios de modistería para ajuste de prendas
 
       .row.justify-content-center.mb-4(data-aos="fade-left")
-        .col-lg-5
-          p En modistería, la persona cliente para ajuste de prendas puede agruparse atendiendo a sus necesidades, frecuencia de servicio y perfil de exigencia. A continuación, se describen las categorías más relevantes:
-          .titulo-sexto.color-acento-contenido
-            h5 Figura 4. 
-            span Relación con el cliente
-          .col-lg-12
-            img(src="@/assets/curso/Tema1/img06.svg", alt='Ocho personas interactúan en diferentes situaciones relacionadas con la compra de ropa. En la parte superior izquierda, dos personas observan una prenda; una de ellas la sostiene frente a la otra. En el centro superior, una persona está en un punto de pago con otra detrás del mostrador. A la derecha, una persona ofrece una prenda a otra. En la parte inferior izquierda, una persona sostiene varias bolsas en ambas manos. En el centro inferior, otra también lleva múltiples bolsas. A la derecha, dos personas observan un vestido colocado en un maniquí.')
-        .col-lg-7
+        .col-lg-3
+          p.bg-16.p-4.mb-3 En modistería, la persona cliente para ajuste de prendas puede agruparse atendiendo a sus necesidades, frecuencia de servicio y perfil de exigencia. A continuación, se describen las categorías más relevantes:
+          img(src='@/assets/curso/Tema1/img20.png', alt='')
+        .col-lg-9
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
             .row(titulo="Persona cliente puntual")
               .col-md-12.mb-4.mb-md-0
@@ -207,8 +203,17 @@
               .col-md-12.mb-4.mb-md-0
                 p A diferencia de la simple corrección de medidas, solicita la modificación estructural del patrón base para adaptar el diseño a cambios corporales, estados posturales o necesidades especiales (por ejemplo, tallas inclusivas). Requiere un diagnóstico inicial detallado y varias sesiones de prueba.
 
-      p.mb-4 Cada uno de estos perfiles implica protocolos de atención, tiempos de servicio y niveles de detalle distintos. Clasificar a la persona cliente en estas tipologías permite al taller de modistería optimizar recursos, definir cotizaciones precisas y garantizar un resultado que responda de manera adecuada a las expectativas funcionales, estéticas y temporales.
-
+      
+      .row.justify-content-center.mb-5
+        .col-lg-4 
+          p.bg-11.p-4 Cada uno de estos perfiles implica protocolos de atención, tiempos de servicio y niveles de detalle distintos. Clasificar a la persona cliente en estas tipologías permite al taller de modistería optimizar recursos, definir cotizaciones precisas y garantizar un resultado que responda de manera adecuada a las expectativas funcionales, estéticas y temporales.
+        .col-lg-8
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 4. 
+            span Relación con el cliente
+          .col-lg-12
+            img(src="@/assets/curso/Tema1/img06.svg", alt='Ocho personas interactúan en diferentes situaciones relacionadas con la compra de ropa. En la parte superior izquierda, dos personas observan una prenda; una de ellas la sostiene frente a la otra. En el centro superior, una persona está en un punto de pago con otra detrás del mostrador. A la derecha, una persona ofrece una prenda a otra. En la parte inferior izquierda, una persona sostiene varias bolsas en ambas manos. En el centro inferior, otra también lleva múltiples bolsas. A la derecha, dos personas observan un vestido colocado en un maniquí.')
+    
       separador
       #t_1_2.titulo-segundo.mb-5
         h2 1.2  Técnicas de atención al cliente
@@ -232,19 +237,21 @@
               .row.justify-content-center.align-items-center  
                 .col-md-6.mb-3
                   figure
-                    img(src='@/assets/curso/Tema1/img08.png', alt='Texto que describa la imagen')
-                .col-lg-4.mb-4.mb-md-0
-                  h4 Empatía profesional
-                  p Se reconoce y valida el estado emocional de quien solicita el servicio (“entiendo que requiere un ajuste rápido para su evento”).
-                  p Se emplea un tono cordial y cercano, pero respetuoso, que genere confianza y confort.
-              .row.justify-content-center.align-items-center  
-                .col-md-6.mb-3
-                  figure
                     img(src='@/assets/curso/Tema1/img09.png', alt='Texto que describa la imagen')
                 .col-lg-4.mb-4.mb-md-0
                   h4 Escucha activa
                   p El personal presta atención plena a los comentarios y preguntas de la persona usuaria, repitiendo o reformulando la información para confirmar la comprensión.
                   p Se utilizan preguntas abiertas (“¿cómo describiría sus necesidades?”) para promover la expresión detallada de expectativas.
+              
+              .row.justify-content-center.align-items-center  
+                .col-md-6.mb-3
+                  figure
+                    img(src='@/assets/curso/Tema1/img08.png', alt='Texto que describa la imagen')
+                .col-lg-4.mb-4.mb-md-0
+                  h4 Empatía profesional
+                  p Se reconoce y valida el estado emocional de quien solicita el servicio (“entiendo que requiere un ajuste rápido para su evento”).
+                  p Se emplea un tono cordial y cercano, pero respetuoso, que genere confianza y confort.
+              
             
               .row.justify-content-center.align-items-center  
                 .col-md-6.mb-3
@@ -329,11 +336,17 @@
         .tarjeta.tarjeta-btn.p-4.h-100
           img.mb-3(src='@/assets/curso/Tema1/6.svg', alt='')
           .title.mb-4
-            h4.text-center.mb-0 Control de calidad al cierre del servicio
+            h4.text-center.mb-0 Registro de historial y recomendaciones personalizadas
           .row.justify-content-center.align-items-center.mb-2
             .col-lg-12
-              p.text-center Antes de la entrega, se inspecciona cada costura y acabado con lupa o bastidor de iluminación, verificando uniformidad y resistencia. Se entrega la prenda en funda protectora (opcional), junto con indicaciones de uso y cuidado para preservar el ajuste logrado.
-      
+              p.text-center Se conserva la ficha de medidas, preferencias de estilo y observaciones de construcciones anteriores, para agilizar futuros servicios. Recomendación, enviar recordatorio automático o personalizado de revisiones anuales o estacionales, facilitando la fidelización.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-12
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 5. 
+            span Atención al cliente en modistería
+        .col-lg-8.col-md-7
+          img(src='@/assets/curso/Tema1/img14.png', alt='Dos personas están de pie, una al lado de la otra. Una de ellas sostiene una tela doblada sobre el hombro de la otra, quien permanece erguida con expresión tranquila. Frente a ambas hay una mesa con varias telas organizadas en capas, hojas extendidas y una tarjeta con muestras en serie. Al fondo hay repisas con objetos y materiales de trabajo.')
       p.mb-4 La siguiente tabla resume las principales técnicas de atención al cliente utilizadas durante el ajuste de prendas de vestir.
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
         .col-lg-12
@@ -366,16 +379,10 @@
                   td.texto-izquierda Gestión de reclamaciones y servicio: protocolo “escuchar, disculparse, proponer solución” y compensaciones cuando proceda.
                   td.texto-izquierda Control de calidad al cierre: inspección minuciosa de costuras y acabados antes de entrega, acompañada de instrucciones de cuidado.
                 tr
-                  td.texto-izquierda Seguimiento y retroalimentación: contacto posterior para verificar satisfacción y documentar feedback.
+                  td.texto-izquierda Seguimiento y retroalimentación: contacto posterior para verificar satisfacción y documentar #[em feedback].
                   td.texto-izquierda Registro de historial y recordatorios: conservación de ficha de medidas y envío de recordatorios para ajustes futuros.
               
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-12
-          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 5. 
-            span Atención al cliente en modistería
-        .col-lg-8.col-md-7
-          img(src='@/assets/curso/Tema1/img14.png', alt='Dos personas están de pie, una al lado de la otra. Una de ellas sostiene una tela doblada sobre el hombro de la otra, quien permanece erguida con expresión tranquila. Frente a ambas hay una mesa con varias telas organizadas en capas, hojas extendidas y una tarjeta con muestras en serie. Al fondo hay repisas con objetos y materiales de trabajo.')
+      
 
       separador
       #t_1_3.titulo-segundo.mb-5
@@ -456,7 +463,7 @@
                 .col-5.mb-3.col-md-3
                   img(src='@/assets/curso/Tema1/03.svg' alt='')
               h4.text-center.bg-20.p-1.mb-4 Validación de preferencias 
-              p.text-center.col-lg-11 Confirmación continua de decisiones mediante preguntas específicas #[b ¿este tipo de costura le resulta cómoda? o ¿le agrada la caída de esta tela?]
+              p.text-center.col-lg-11 Confirmación continua de decisiones mediante preguntas específicas #[b ¿este tipo de costura le resulta cómoda?] o #[b ¿le agrada la caída de esta tela?]
             .tarjeta.bg-1.p-4
               .row.justify-content-center.mb-3
                 .col-4.mb-3.col-md-3
@@ -506,7 +513,7 @@
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
         .col-lg-12
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura6. 
+            h5 Figura 6. 
             span  Ejemplo de ficha técnica en el registro de medidas
         .col-lg-8  
           img(src='@/assets/curso/Tema1/figura6.svg', alt='Formulario estructurado en secciones. La parte superior recoge datos generales del cliente como nombre, dirección, teléfono, talla y correo. En el centro se incluye el análisis morfológico y el tipo de silueta. La parte inferior contiene una tabla con diferentes medidas corporales, cada una con un espacio asignado para su observación. Al final hay un área para observaciones y firma de quien elabora el documento.')
@@ -514,14 +521,14 @@
       .tarjeta.bg-3.p-3.py-md-4(data-aos="fade").mb-3
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
-            img(src="@/assets/curso/Tema1/video.svg")
+            img(src="@/assets/curso/Tema1/descargar.svg")
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 h4.mb-1.bg1color Formulario de datos del cliente. Ficha técnica
                 p.mb-0.text-white Se recomienda consultar el siguiente documento como complemento informativo:
               .col-sm-auto
-                a.boton.color-acento-botones(:href="('')" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('/downloads/Formulario_de_datos_del_cliente_Ficha_Técnica.xlsx')" target="_blank")
                   span Descargar
                   i.fas.fa-download
 

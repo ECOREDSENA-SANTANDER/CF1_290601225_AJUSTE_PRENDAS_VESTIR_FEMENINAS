@@ -84,7 +84,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Estructura Corporal Femenina',
+        titulo: 'Estructura corporal femenina',
         desarrolloContenidos: true,
         subMenu: [
           {

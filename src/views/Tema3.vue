@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Estructura Corporal Femenina 
+      h1 Estructura corporal femenina 
   
     .bloque-texto-g.bloque-texto-g--inverso.bg-12.p-3.p-sm-4.p-md-5.mb-4(data-aos='fade-right')
       .bloque-texto-g__img(
