@@ -149,7 +149,7 @@
               img(src='@/assets/curso/Tema2/figura14.svg', alt='Ocho ilustraciones técnicas de prendas superiores ajustadas tipo corsé, organizadas en dos filas. Cada una presenta variaciones en longitud, presencia o ausencia de tirantes, cortes verticales, estructura de copas y terminaciones inferiores.')
             .col-10.col-lg-6
               h4 #[em Corsets]
-              p prendas ajustadas que rodean el torso, diseñadas para moldear la figura, en especial la cintura. Pueden usarse como ropa interior o exterior, y combinan función estética y soporte estructural.
+              p Prendas ajustadas que rodean el torso, diseñadas para moldear la figura, en especial la cintura. Pueden usarse como ropa interior o exterior, y combinan función estética y soporte estructural.
 
 
     .tarjeta.bg-3.p-3.py-md-4(data-aos="fade").mb-3
@@ -163,7 +163,7 @@
                 p.mb-0.text-white Se invita a explorar el video sobre la categoría y tipologías de prendas:
               .col-sm-auto
                 a.boton.color-acento-botones(:href="('https://youtu.be/MPaIS2YaAXM')" target="_blank")
-                  span Ir al video
+                  span Ir al sitio
                   i.fas.fa-circle-play
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -327,7 +327,7 @@
                 p.mb-0.text-white Para ampliar y profundizar en los contenidos abordados, se recomienda consultar el siguiente enlace:
               .col-sm-auto
                 a.boton.color-acento-botones(:href="('https://youtu.be/YXT2HTjiB3Q')" target="_blank")
-                  span Ir al video
+                  span Ir al sitio
                   i.fas.fa-circle-play
 
     Separador
