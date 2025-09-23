@@ -419,7 +419,7 @@
                 p.mb-0.text-white Para ampliar y profundizar en los contenidos abordados, se recomienda consultar el siguiente enlace.
               .col-sm-auto
                 a.boton.color-acento-botones(:href="('https://youtu.be/mc1kARHDHrs')" target="_blank")
-                  span Ir al video
+                  span Ir al sitio
                   i.fas.fa-circle-play
 
     .subt.mb-4(data-aos="fade")
