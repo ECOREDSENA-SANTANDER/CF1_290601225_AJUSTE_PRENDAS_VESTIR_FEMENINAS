@@ -162,7 +162,7 @@
                 h4.mb-1.bg1color Categoría de prendas - Tipologías - Bitácora de formas
                 p.mb-0.text-white Se invita a explorar el video sobre la categoría y tipologías de prendas:
               .col-sm-auto
-                a.boton.color-acento-botones(:href="('https://youtu.be/MPaIS2YaAXM')" target="_blank")
+                a.boton.color-acento-botones(:href="('https://youtu.be/leHGYnfUxGk')" target="_blank")
                   span Ir al sitio
                   i.fas.fa-circle-play
     Separador
@@ -326,7 +326,7 @@
                 h4.mb-1.bg1color Gamas de mercado - Universos de vestuarios - Ocasiones de uso.
                 p.mb-0.text-white Para ampliar y profundizar en los contenidos abordados, se recomienda consultar el siguiente enlace:
               .col-sm-auto
-                a.boton.color-acento-botones(:href="('https://youtu.be/YXT2HTjiB3Q')" target="_blank")
+                a.boton.color-acento-botones(:href="('https://youtu.be/VsTacEciP3k')" target="_blank")
                   span Ir al sitio
                   i.fas.fa-circle-play
 
@@ -418,7 +418,7 @@
                 h4.mb-1.bg1color Sesión 6 - Caracterización de los textiles
                 p.mb-0.text-white Para ampliar y profundizar en los contenidos abordados, se recomienda consultar el siguiente enlace.
               .col-sm-auto
-                a.boton.color-acento-botones(:href="('https://youtu.be/mc1kARHDHrs')" target="_blank")
+                a.boton.color-acento-botones(:href="('https://youtu.be/kL9UYOzJD3o')" target="_blank")
                   span Ir al sitio
                   i.fas.fa-circle-play
 
