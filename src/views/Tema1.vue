@@ -17,7 +17,7 @@
             img(src='@/assets/curso/Tema1/img01.png', alt='')
 
 
-      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .row.justify-content-center.align-items-center.mb-2(data-aos="fade-left")
         .col-lg-6.col-10
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 1. 
@@ -348,7 +348,7 @@
         .col-lg-6.col-md-5.col-8
           img(src='@/assets/curso/Tema1/img14.png', alt='Dos personas están de pie, una al lado de la otra. Una de ellas sostiene una tela doblada sobre el hombro de la otra, quien permanece erguida con expresión tranquila. Frente a ambas hay una mesa con varias telas organizadas en capas, hojas extendidas y una tarjeta con muestras en serie. Al fondo hay repisas con objetos y materiales de trabajo.')
       p.mb-4 La siguiente tabla resume las principales técnicas de atención al cliente utilizadas durante el ajuste de prendas de vestir.
-      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .row.justify-content-center.align-items-center.mb-3(data-aos="fade-left")
         .col-lg-12
           .titulo-sexto.color-acento-contenido.mb-4
             h5 Tabla 1. 

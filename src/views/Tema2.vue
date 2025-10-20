@@ -355,9 +355,109 @@
           .titulo-sexto.color-acento-contenido.mb-4
             h5 Tabla 5. 
             span Ajustes más comunes en las prendas de vestir femeninas
-          img(src='@/assets/curso/Tema2/tabla5.svg', alt='')
-          figcaption Fuente: SENA, (2025)
+          .tabla-a.color-acento-contenido 
+            table(style="width: auto; table-layout: auto;" alt='Tabla con tres columnas. La primera enumera tipologías de prendas como vestidos, faldas, blusas, pantalones, chaquetas, monos y prendas de corsetería. La segunda describe ajustes o modificaciones posibles, como entalle, corrección de largo, ajuste de hombros o mangas. La tercera columna ofrece una explicación breve para cada modificación, orientada a mejorar el calce, la comodidad o la silueta.')
+              caption Fuente: SENA, (2025)
+              thead
+                tr
+                  th.texto-izquierda.bg-17.w-25 Tipología de prenda
+                  th.texto-izquierda.bg-17.w-25 Ajuste o modificación
+                  th.texto-izquierda.bg-17 Descripción breve
+              tbody
+                tr
+                  td.texto-izquierda(rowspan="4") #[b Vestidos]
+                  td.texto-izquierda Entallado de cintura.
+                  td.texto-izquierda Se reduce el contorno de la cintura para lograr un talle más definido.
+                tr
+                  td.texto-izquierda Ajuste de largo.
+                  td.texto-izquierda Se acorta o alarga el bajo conforme a la altura y preferencia de la persona usuaria.
+                tr
+                  td.texto-izquierda Corrección de hombros.
+                  td.texto-izquierda Se ensancha o estrecha la anchura de hombros para mejorar el calce.
+                tr
+                  td.texto-izquierda Modificación de escote.
+                  td.texto-izquierda Se modifica la forma o profundidad del escote para adaptar estilo y confort.
 
+                // FALDAS
+                tr
+                  td.texto-izquierda(rowspan="3") #[b Faldas]
+                  td.texto-izquierda Ajuste de cinturilla.
+                  td.texto-izquierda Vestidos largos, trajes formales, indumentaria cultural.
+                tr
+                  td.texto-izquierda Variación de largo.
+                  td.texto-izquierda Se adapta la cinturilla para ajustar el contorno a la medida deseada.
+                tr
+                  td.texto-izquierda Regulación de vuelo.
+                  td.texto-izquierda Se convierte la falda en mini, midi o larga según la ocasión.
+
+                // BLUSAS Y TOPS
+                tr
+                  td.texto-izquierda(rowspan="3") #[b Blusas y #[em tops]]
+                  td.texto-izquierda Ajuste de contorno de busto.
+                  td.texto-izquierda Se amplía o reduce el ancho frontal para un mejor acomodo en el pecho.
+                tr
+                  td.texto-izquierda Corrección de largo de torso.
+                  td.texto-izquierda Se alarga o acorta la prenda en el cuerpo para ajustarse a la silueta.
+                tr
+                  td.texto-izquierda Modificación de mangas.
+                  td.texto-izquierda Se cambia el largo o el volumen de la manga para optimizar movilidad y estilo.
+
+                // PANTALONES
+                tr
+                  td.texto-izquierda(rowspan="4") #[b Pantalones]
+                  td.texto-izquierda Ajuste de tiro.
+                  td.texto-izquierda Se modifica la altura del tiro delantero o trasero para mejorar comodidad.
+                tr
+                  td.texto-izquierda Variación de largo de pernera.
+                  td.texto-izquierda Se acorta o alarga la pierna de acuerdo con la altura y el tipo de calzado.
+                tr
+                  td.texto-izquierda Entallado de pretina.
+                  td.texto-izquierda Se estrecha o afloja la pretina para un ajuste preciso en cintura.
+                tr
+                  td.texto-izquierda Regulación de ancho de pierna.
+                  td.texto-izquierda Se estrecha o ensancha la pernera para adecuarse al estilo deseado.
+
+                // CHAQUETAS Y ABRIGOS
+                tr
+                  td.texto-izquierda(rowspan="4") #[b Chaquetas y abrigos]
+                  td.texto-izquierda Entallado en tronco.
+                  td.texto-izquierda Se reduce la anchura en cintura o espalda para realzar la silueta.
+                tr
+                  td.texto-izquierda Ajuste de hombros.
+                  td.texto-izquierda Se modifica la anchura y caída de hombros para un calce impecable.
+                tr
+                  td.texto-izquierda Acortado de mangas.
+                  td.texto-izquierda Se ajusta la longitud de la manga para adecuarla a la forma del brazo.
+                tr
+                  td.texto-izquierda Adaptación de forro interno.
+                  td.texto-izquierda Se repara o ajusta el forro para asegurar confort y durabilidad.
+
+                // MONOS Y ENTERIZOS
+                tr
+                  td.texto-izquierda(rowspan="4") #[b Monos y enterizos]
+                  td.texto-izquierda Ajuste de largo de torso.
+                  td.texto-izquierda Se modifica la medida del tronco para evitar tirantez o pliegues indeseados.
+                tr
+                  td.texto-izquierda Entallado de cintura.
+                  td.texto-izquierda Se adapta el contorno de la cintura al cuerpo para definir la silueta.
+                tr
+                  td.texto-izquierda Variación de largo de pernera.
+                  td.texto-izquierda Se alarga o acorta la pierna según preferencia y uso.
+                tr
+                  td.texto-izquierda Regulación de tirantes.
+                  td.texto-izquierda Se acortan o alargan tiras para ubicar correctamente la prenda.
+
+                // FAJAS Y CORSETERÍA
+                tr
+                  td.texto-izquierda(rowspan="3") #[b Fajas y corsetería]
+                  td.texto-izquierda Ajuste de compresión.
+                  td.texto-izquierda Se modifica la tensión de la prenda para equilibrar sujeción y confort.
+                tr
+                  td.texto-izquierda Recorte de contornos.
+                  td.texto-izquierda Se estrechan o amplían paneles para ajustar el contorno corporal.
+                tr
+                  td.texto-izquierda Refuerzo de costuras.
+                  td.texto-izquierda Se añaden refuerzos en áreas de mayor tensión para mejorar la resistencia.
     
     Separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -389,8 +489,59 @@
                 .titulo-sexto.color-acento-contenido.mb-4
                   h5 Tabla 6. 
                   span   Clasificación de las fibras
-                img(src='@/assets/curso/Tema2/tabla6.svg', alt='Clasificación las fibras textiles en dos grandes grupos: fibras naturales y fibras químicas, según su origen y composición.')
-                figcaption Fuente: El rincón de celeste cielo, (2015)
+                .tabla-a
+                  table(style="width:auto; table-layout:auto; border-collapse:collapse; background-color:white; border:1px solid #ddd;" alt='Clasificación las fibras textiles en dos grandes grupos: fibras naturales y fibras químicas, según su origen y composición.')
+                    caption(style="caption-side:bottom; text-align:left; font-size:0.9em; color:#555;") Fuente: El rincón de celeste cielo, (2015)
+                    tbody
+                      //--- FIBRAS NATURALES
+                      tr
+                        td.texto-izquierda(rowspan="7" style="background-color:#f8b75d; font-weight:bold; border:1px solid #ddd; padding:8px;") Fibras naturales
+                        td.texto-izquierda(rowspan="2" style="border:1px solid #ddd; padding:8px;") Animales
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Procedentes de glándulas sedosas
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Seda, seda salvaje.
+                      tr
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Procedentes de folículos pilosos
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Pelo de alpaca, angora, buey, caballo, conejo, castor, camello, cachemira, cabra guanaco, llama, nutria, vicuña, yak.
+                      tr
+                        td.texto-izquierda(rowspan="4" style="border:1px solid #ddd; padding:8px;") Vegetales
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Procedentes de las semillas
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Algodón.
+                      tr
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Procedentes del tallo
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Lino, cáñamo, yute, ramio.
+                      tr
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Procedentes de la hoja
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Esparto, sisal.
+                      tr
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Procedentes del fruto
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Coco.
+                      tr
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Minerales
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Asbestos, fibra de vidrio, fibra de carbono
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") -
+
+                      //--- FIBRAS QUÍMICAS
+                      tr
+                        td.texto-izquierda(rowspan="6" style="background-color:#f8b75d; font-weight:bold; border:1px solid #ddd; padding:8px;") Fibras químicas
+                        td.texto-izquierda(rowspan="3" style="border:1px solid #ddd; padding:8px;") Artificiales
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Base proteínica
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") De la caseína de la leche (fibroína), de algas (alginato).
+                      tr
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Base celulósica
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Rayones (viscosa, cupró, acetato).
+                      tr
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Base metálica
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Oro, plata, cobre.
+                      tr
+                        td.texto-izquierda(rowspan="3" style="border:1px solid #ddd; padding:8px;") Sintéticas
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Por polimerización
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Polivinilo, poliacrílicos.
+                      tr
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Por condensación
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Poliéster (tergal), poliamida (#[em nylon]).
+                      tr
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Por poliadición
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Poliuretano, poliespanoes.
             .row(titulo="Hilos e hilatura")
               .col-md-12.mb-4.mb-md-0
                 p.bg-1.p-4 Se denomina hilo al conjunto de fibras textiles, continuas o discontinuas, que se tuercen juntas alcanzando una gran longitud y que es directamente empleado para la fabricación de tejidos, a su vez, hilatura al arte de hilar los filamentos para obtener un conjunto de hebras preparadas para el proceso de construcción de hilos y tejidos. 
@@ -406,8 +557,57 @@
                 .titulo-sexto.color-acento-contenido.mb-4
                   h5 Tabla 7.
                   span Clasificación de tejidos
-                img(src='@/assets/curso/Tema2/tabla7.svg', alt='Informacion para la línea: En esa frase deben ir en mayúscula los nombres propios y las siglas institucionales. Así corregido: (Textile Terms and Definitions, The Textile Institute, citado por el SENA). Explicación: •	Textile Terms and Definitions: es el título de una obra, por lo tanto va en mayúscula inicial en cada palabra principal en inglés (según normas de estilo en títulos). •	The Textile Institute: es el nombre propio de una institución, por lo tanto en mayúscula.')
-                figcaption Fuente: SENA, (2020)
+                .tabla-a.align-items-center
+                  table(style="width:auto; table-layout:auto; border-collapse:collapse; background-color:white; border:1px solid #ddd;" alt='Informacion para la línea: En esa frase deben ir en mayúscula los nombres propios y las siglas institucionales. Así corregido: (Textile Terms and Definitions, The Textile Institute, citado por el SENA). Explicación: •	Textile Terms and Definitions: es el título de una obra, por lo tanto va en mayúscula inicial en cada palabra principal en inglés (según normas de estilo en títulos). •	The Textile Institute: es el nombre propio de una institución, por lo tanto en mayúscula.')
+                    caption(style="caption-side:bottom; text-align:left; font-size:0.9em; color:#555;") Fuente: SENA, (2020)
+                    tbody
+                      //--- TELAS TEJIDAS (7 plano + 4 punto = 11 filas)
+                      tr
+                        td.texto-izquierda(rowspan="11" style="background-color:#f8b75d; font-weight:bold; border:1px solid #ddd; padding:8px; vertical-align:middle;") Telas tejidas
+                        // --- PLANO (total 7 filas)
+                        td.texto-izquierda(rowspan="7" style="border:1px solid #ddd; padding:8px; vertical-align:top;") Plano
+                        td.texto-izquierda(rowspan="3" style="border:1px solid #ddd; padding:8px; vertical-align:top;") Ligamentos fundamentales
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Tafetán
+                      tr
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Sarga (diagonal)
+                      tr
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Raso o satén
+                      tr
+                        td.texto-izquierda(rowspan="3" style="border:1px solid #ddd; padding:8px; vertical-align:top;") Ligamentos derivados
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Esterilla/canasta
+                      tr
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Espina/espiga
+                      tr
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Sarga interrumpida (#[em broken twill])
+                      tr
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Otros
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") #[em Dobby, jacquard,] afelpados etc.
+
+                      // --- PUNTO (4 filas)
+                      tr
+                        td.texto-izquierda(rowspan="4" style="border:1px solid #ddd; padding:8px; vertical-align:top;") Punto
+                        td.texto-izquierda(rowspan="2" style="border:1px solid #ddd; padding:8px; vertical-align:top;") Por trama
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Sencillo (#[em jersey,] lacoste)
+                      tr
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") Doble (#[em rib] o resortado, #[em interlock], piqué)
+                      tr
+                        td.texto-izquierda(rowspan="2" style="border:1px solid #ddd; padding:8px; vertical-align:top;") Por urdimbre
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") #[em Tricot]
+                      tr
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") #[em Raschel]
+
+                      //--- TELAS NO TEJIDAS (con <br>)
+                      tr
+                        td.texto-izquierda(style="background-color:#f8b75d; font-weight:bold; border:1px solid #ddd; padding:8px; vertical-align:middle;") Telas no tejidas
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") 
+                          | Interlones
+                          br
+                          | Guatas
+                          br
+                          | Entretelas
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") No aplica
+                        td.texto-izquierda(style="border:1px solid #ddd; padding:8px;") No aplica
+                  
     .row.justify-content-center.align-items-center.mb-4.bg-26.p-4(data-aos='fade-right')
       .col-lg-2.col-4.mb-3.col-md-3
         img(src='@/assets/curso/Tema2/ico2.svg', alt='')
