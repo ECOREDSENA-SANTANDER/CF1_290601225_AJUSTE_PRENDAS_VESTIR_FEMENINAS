@@ -61,7 +61,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tipología de Prendas Femeninas',
+        titulo: 'Tipología de prendas femeninas',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -165,7 +165,7 @@ export default {
         'https://digitk.areandina.edu.co/bitstream/handle/areandina/3523/93%20FUNDAMENTOS%20DE%20SERVICIO%20AL%20CLIENTE.pdf ',
     },
     {
-      tema: 'Tipología de prendas de vestir',
+      tema: 'Tipología de prendas femeninas ',
       referencia:
         'García López, M. C. (2001). La indumentaria emblemática: sistema y tipología. Emblemata, 7, 365–376. ',
       tipo: 'Artículo.',
@@ -175,7 +175,7 @@ export default {
     {
       tema: 'Estructura corporal femenina',
       referencia:
-        'Valero Martínez, M., Ballester Fernández, A., Nácher Fernández, B., Piérola Orcero, A., Alemany Mut, S., González García, J. C., et al. (2015). La antropometría, garantía para un correcto ajuste de la ropa. Revista de Biomecánica, 62, 11–17.',
+        'Valero Martínez, M., Ballester Fernández, A., Nácher Fernández, B., Piérola Orcero, A., Alemany Mut, S., González García, J. C., Gil Mora, S., & Caprara, G. (2015). <i>La antropometría, garantía para un correcto ajuste de la ropa. Revista de Biomecánica</i>, 62, 11–17. ',
       tipo: 'Artículo.',
       link: 'https://dialnet.unirioja.es/descarga/articulo/6263312.pdf ',
     },
@@ -261,7 +261,7 @@ export default {
     {
       referencia:
         'Das, S. (2024). Design for the body: How ergonomics transforms modern clothing into comfortable, functional, and stylish garments. Ergonomics International Journal, 8(4), Artículo 000337.',
-      link: 'https://doi.org/10.23880/EOIJ-16000337',
+      link: '',
     },
     {
       referencia:
@@ -275,25 +275,25 @@ export default {
     },
     {
       referencia:
-        'GQ México. (2019). ¿Sabías que existían estilos de sastrería para el hombre? Ahora conoce sus diferencias.',
+        'Vásquez, D. (2018). ¿Sabías que existían estilos de sastrería para el hombre? Ahora conoce sus diferencias. GQ México.',
       link:
         'https://www.gq.com.mx/moda/articulo/sabias-que-existian-estilos-de-sastreria-para-el-hombre-ahora-conoce-sus-diferencias',
     },
     {
       referencia: 'Inexmoda. (2024). Informe de tendencias: Colombiamoda 2024',
-      link: 'https://inexmoda.org.co/observatorio-inexmoda-enero-2024/',
+      link: '',
     },
     {
       referencia:
-        'Instituto Nacional Tecnológico. (2011). Manual de unión y acabado de prendas de vestir.',
+        'Instituto Nacional Tecnológico. (2011). Manual para la participante unión y acabado de prendas de vestir.',
       link:
-        'https://es.scribd.com/document/412659427/Manual-de-Union-y-Acabado-de-Prendas-de-Vestir ',
+        'https://es.scribd.com/document/412659427/Manual-de-Union-y-Acabado-de-Prendas-de-Vestir ',
     },
     {
       referencia:
-        'Pacheco, A. (2022). Economía circular y el arreglo y modificación de ropa. LinkedIn.',
+        'Pacheco, A. (2023). Economía circular y el arreglo y modificación de ropa. LinkedIn.',
       link:
-        'https://es.linkedin.com/pulse/econom%C3%ADa-circular-y-el-arreglo-modificaci%C3%B3n-de-ropa-pacheco ',
+        'https://es.linkedin.com/pulse/econom%C3%ADa-circular-y-el-arreglo-modificaci%C3%B3n-de-ropa-pacheco  ',
     },
     {
       referencia:
@@ -366,7 +366,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Erika Fernanda Mejía Pinzón',
+          nombre: 'Andrea Ardila Chaparro',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

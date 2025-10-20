@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Tipología de Prendas Femeninas
+      h1 Tipología de prendas femeninas
 
     .bg-21.mb-5(data-aos="fade-left")
       .row.align-items-center 
@@ -36,18 +36,18 @@
                 tr
                   td.texto-izquierda Faldas
                   td.texto-izquierda Mini, midi, larga, plisada, tubo.
-                  td.texto-izquierda Prenda inferior separada; ofrece versatilidad desde looks informales hasta estilos más estructurados.
+                  td.texto-izquierda Prenda inferior separada; ofrece versatilidad desde #[em looks] informales hasta estilos más estructurados.
                 tr
                   td.texto-izquierda Blusas y #[em tops]
                   td.texto-izquierda Camisas, blusas de manga larga, #[em crop tops], túnicas.
                   td.texto-izquierda Prenda superior ligera; puede incorporar detalles de volantes, drapeados o cortes asimétricos para diferentes siluetas.
                 tr
                   td.texto-izquierda Pantalones
-                  td.texto-izquierda #[em Jeans], #[em palazzo], pitillo, #[en jogger].
+                  td.texto-izquierda #[em Jeans], #[em palazzo], pitillo, #[em jogger].
                   td.texto-izquierda Prenda inferior con múltiples cortes y tejidos; combina confort y estilo según el ajuste y el material.
                 tr
                   td.texto-izquierda Chaquetas y abrigos
-                  td.texto-izquierda #[em Blazer, trench, bomber,] abrigo. largo
+                  td.texto-izquierda #[em Blazer, trench, bomber,] abrigo, largo
                   td.texto-izquierda Prenda exterior destinada a aportar estructura y abrigo; su diseño define el nivel de formalidad y protección.
                 tr
                   td.texto-izquierda Monos y enterizos
@@ -67,89 +67,97 @@
       .col-lg-12.col-12.px-lg-4
         SlyderA(tipo="b").slyderblanco.p-4
           .row.justify-content-center.align-items-center
+            .col-10.col-lg-6
+              h4 Vestido
+              p Es una prenda de una sola pieza que cubre el torso y parte de las piernas. Las prendas de vestir son piezas textiles diseñadas para cubrir o adornar el cuerpo, y se clasifican según su forma y uso.
             .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Figura 7.
                 span Tipologías de vestido
               img(src='@/assets/curso/Tema2/figura7.svg', alt='Conjunto de quince ilustraciones distribuidas en tres filas. Cada una representa una prenda superior o de una sola pieza de uso femenino, con variaciones en escote, mangas, largos, siluetas y cortes. Se incluyen vestidos, blusas, chaquetas y faldas con diferentes estructuras, desde ajustadas hasta sueltas, y con múltiples diseños en cuello, cintura y terminaciones.')
-            .col-10.col-lg-6
-              h4 Vestido
-              p Es una prenda de una sola pieza que cubre el torso y parte de las piernas. Las prendas de vestir son piezas textiles diseñadas para cubrir o adornar el cuerpo, y se clasifican según su forma y uso.
+            
         
 
           .row.justify-content-center.align-items-center
-            .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
+            .col-10.col-lg-5
+              h4 Falda
+              p Es una prenda de vestir que cubre desde la cintura hacia abajo, dejando descubiertas las piernas. Puede variar en largo, forma y estilo, adaptándose a diferentes usos y contextos.
+
+            .col-10.col-md-8.col-lg-5.mb-4.mb-lg-0
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Figura 8. 
                 span Tipologías de faldas
               img(src='@/assets/curso/Tema2/figura8.svg', alt='Conjunto de quince ilustraciones de faldas organizadas en tres filas. Cada imagen representa una tipología diferente, identificada con un nombre en la parte inferior. Las variaciones incluyen estructuras como línea A, godet, plisada, lápiz, asimétrica, cruzada, circular, con volantes o tipo sirena. Las formas abarcan desde diseños ajustados hasta voluminosos, con longitudes y caídas diversas.')
-            .col-10.col-lg-6
-              h4 Falda
-              p Es una prenda de vestir que cubre desde la cintura hacia abajo, dejando descubiertos las piernas. Puede variar en largo, forma y estilo, adaptándose a diferentes usos y contextos.
-
+           
         
           .row.justify-content-center.align-items-center
-            .col-10.col-md-8.col-lg-5.mb-4.mb-lg-0
+            .col-10.col-lg-5
+              h4 #[em Top] y blusas
+              p Prendas superiores que cubren el torso. El #[em top] suele ser una prenda más corta y ajustada, de estilo informal. La blusa, en cambio, es más suelta, versátil y común en contextos formales o semiformales.
+            .col-10.col-md-8.col-lg-6.mb-4.mb-lg-0
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Figura 9. 
                 span Tipologías de #[em tops] y blusas
               img(src='@/assets/curso/Tema2/figura9.svg', alt='Conjunto de dieciocho escotes femeninos representados mediante siluetas. Se incluyen formas cerradas, redondeadas, en punta, con aberturas pequeñas, líneas rectas, curvas suaves y estructuras asimétricas. Algunos cubren por completo el cuello, otros dejan los hombros libres o incorporan tiras delgadas. También hay diseños con cortes en diagonal, cruces frontales, curvas profundas o elementos que se ajustan desde el cuello, mostrando una variedad de estilos que modelan el área superior del torso.')
-            .col-10.col-lg-6
-              h4 #[em Top] y blusas
-              p Prendas superiores que cubren el torso. El top suele ser una prenda más corta y ajustada, de estilo informal. La blusa, en cambio, es más suelta, versátil y común en contextos formales o semiformales.
+            
 
         
           .row.justify-content-center.align-items-center
-            .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
+            .col-10.col-lg-5
+              h4 Pantalones
+              p Son prendas de vestir que cubren desde la cintura hasta los tobillos, dividiendo el cuerpo en dos partes. Existen en diversas formas, largos y estilos, y se adaptan tanto a usos formales como informales.  
+            .col-10.col-md-8.col-lg-5.mb-4.mb-lg-0
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Figura 10. 
                 span Tipologías de pantalones
               img(src='@/assets/curso/Tema2/figura10.svg', alt='Conjunto de doce ilustraciones de pantalones distribuidos en dos filas. Cada figura representa una silueta distinta, con variaciones en el ajuste, caída y largo. Hay modelos ajustados al cuerpo, rectos, con corte acampanado, amplios desde la cadera o de piernas anchas. También se incluyen versiones con el ruedo ceñido, formas relajadas, estructuras sueltas o versiones cortas por encima de la rodilla.')
-            .col-10.col-lg-6
-              h4 Pantalones
-              p Son prendas de vestir que cubren desde la cintura hasta los tobillos, dividiendo el cuerpo en dos partes. Existen en diversas formas, largos y estilos, y se adaptan tanto a usos formales como informales.  
+            
       
           .row.justify-content-center.align-items-center
+            .col-10.col-lg-6
+              h4 Chaquetas
+              p Prendas superiores de abrigo que cubren el torso y los brazos. Se usan como capa exterior y varían en estilo, largo y material según su función o temporada.
             .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Figura 11. 
                 span Tipologías de chaquetas
               img(src='@/assets/curso/Tema2/figura11.svg', alt='Nueve ilustraciones de chaquetas con distintas estructuras. Algunas tienen solapas anchas, otros cierres visibles, cortes rectos o ajustados. Variaciones en cuello, bolsillos y longitud definen cada diseño.')
-            .col-10.col-lg-6
-              h4 Chaquetas
-              p Prendas superiores de abrigo que cubren el torso y los brazos. Se usan como capa exterior y varían en estilo, largo y material según su función o temporada.
+            
     
           .row.justify-content-center.align-items-center
+            .col-10.col-lg-6
+              h4 Abrigos
+              p Prendas exteriores largas y gruesas, diseñadas para brindar protección contra el frío. Cubren el torso y generalmente, llegan hasta las piernas.
             .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Figura 12. 
                 span Tipos de abrigos
               img(src='@/assets/curso/Tema2/figura12.svg', alt='Nueve ilustraciones de abrigos largos con variaciones en cuello, número de botones, bolsillos y proporción. Algunos tienen doble fila de cierre, otros capucha o solapas amplias. Las siluetas van desde entalladas hasta rectas.')
-            .col-10.col-lg-6
-              h4 Abrigos
-              p Prendas exteriores largas y gruesas, diseñadas para brindar protección contra el frío. Cubren el torso y generalmente, llegan hasta las piernas.
+           
 
 
           .row.justify-content-center.align-items-center
+            .col-10.col-lg-6
+              h4 Enterizos
+              p Son prendas de una sola pieza que combinan parte superior e inferior, cubriendo torso y piernas. Se usan en estilos formales e informales y varían en corte, largo y material.
             .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Figura 13. 
                 span Tipos de enterizos
               img(src='@/assets/curso/Tema2/figura13.svg', alt='Veinticuatro ilustraciones de enterizos femeninos distribuidos en tres filas. Incluyen versiones largas y cortas, con diferentes tipos de mangas, tirantes, escotes y cortes. Las siluetas varían entre ajustadas, rectas y amplias.')
-            .col-10.col-lg-6
-              h4 Enterizos
-              p Son prendas de una sola pieza que combinan parte superior e inferior, cubriendo torso y piernas. Se usan en estilos formales e informales y varían en corte, largo y material.
+           
         
 
           .row.justify-content-center.align-items-center
+            .col-10.col-lg-6
+              h4 #[em Corsets]
+              p Prendas ajustadas que rodean el torso, diseñadas para moldear la figura, en especial la cintura. Pueden usarse como ropa interior o exterior, y combinan función estética y soporte estructural.
             .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
                 h5 Figura 14. 
                 span Tipos de #[em corsets]
               img(src='@/assets/curso/Tema2/figura14.svg', alt='Ocho ilustraciones técnicas de prendas superiores ajustadas tipo corsé, organizadas en dos filas. Cada una presenta variaciones en longitud, presencia o ausencia de tirantes, cortes verticales, estructura de copas y terminaciones inferiores.')
-            .col-10.col-lg-6
-              h4 #[em Corsets]
-              p Prendas ajustadas que rodean el torso, diseñadas para moldear la figura, en especial la cintura. Pueden usarse como ropa interior o exterior, y combinan función estética y soporte estructural.
+           
 
 
     .tarjeta.bg-3.p-3.py-md-4(data-aos="fade").mb-3
@@ -389,7 +397,7 @@
                 .titulo-sexto.color-acento-contenido.mb-4
                   h5 Figura 16. 
                   span Hilaturas
-                img(src='@/assets/curso/Tema2/figura16.png', alt='Tres escenas relacionadas con las hiladuras: a la izquierda, husos con hilos enrollados; al centro, un telar en funcionamiento con hilos de colores; y a la derecha, unas manos sostienen madejas de lana teñida.')
+                img(src='@/assets/curso/Tema2/figura16.png', alt='Representación de procesos de hilado artesanal e industrial, que incluyen el tejido manual en telar, el manejo de hilos y la producción mecanizada de bobinas en una fábrica textil. ')
           
             .row(titulo="Tejidos").justify-content-center
               .col-lg-4.mb-4.mb-md-0
@@ -415,7 +423,7 @@
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                h4.mb-1.bg1color Sesión 6 - Caracterización de los textiles
+                h4.mb-1.bg1color Caracterización de los textiles
                 p.mb-0.text-white Para ampliar y profundizar en los contenidos abordados, se recomienda consultar el siguiente enlace.
               .col-sm-auto
                 a.boton.color-acento-botones(:href="('https://youtu.be/kL9UYOzJD3o')" target="_blank")
@@ -475,7 +483,7 @@
                   p.mb-0 #[b Diseño o estampado:]  telas con dibujos direccionados limitan la rotación de piezas.
                 li.mb-3.d-flex
                   i.fas.fa-angle-right2.mb-0
-                  p.mb-0 #[b Técnicas de corte:]  el uso de software de corte o corte manual puede influir en el rendimiento.
+                  p.mb-0 #[b Técnicas de corte:]  el uso de #[em software] de corte o corte manual puede influir en el rendimiento.
           
           
           

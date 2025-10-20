@@ -18,11 +18,11 @@
 
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-        .col-lg-6
+        .col-lg-6.col-10
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 1. 
             span El cliente
-          img.mb-3.d-none.d-lg-block(src='@/assets/curso/Tema1/figura1.png', alt='Dos personas están de pie frente a frente. Una sostiene una caja con el texto “donation clothes” en el centro. La otra persona tiene los brazos ligeramente abiertos. En el fondo varias cajas apiladas, una prenda colgada en un perchero y una planta junto a una mesa.')
+          img.mb-3(src='@/assets/curso/Tema1/figura1.png', alt='Dos personas interactúan en un espacio cerrado mientras una de ellas entrega a la otra una caja con ropa para donación. El gesto refleja un acto de colaboración y solidaridad en un contexto organizado para el almacenamiento o la entrega de artículos. ')
         .col-lg-6
           p En el ámbito de la confección, la persona cliente constituye el eje central de todo el proceso productivo, es quien adquiere una prenda, sea de manera individual, colectiva o empresarial, define los parámetros de diseño, ajuste, calidad y sostenibilidad que guiarán desde la planificación de la colección hasta la entrega final. Su requerimiento coordina las áreas de diseño, patronaje, aprovisionamiento y mercadeo, transformando la creación de valor en una relación bidireccional que sostiene tanto la rentabilidad como la reputación de la marca.
           p.bg-1.p-4 En la etapa de ajuste de prendas, la comprensión de la persona cliente  es fundamental para articular cada intervención, pues con el análisis detallado de sus expectativas funcionales, estéticas y sensoriales, el equipo de confección traduce esas necesidades en modificaciones precisas de silueta, patrón y acabados. La aproximación técnica garantiza que ajustes como entalles, variaciones de largo o modificaciones de la caída cumplan con los estándares de confort, usabilidad y satisfacción del cliente, fortaleciendo así el vínculo de confianza mutua.
@@ -96,7 +96,7 @@
             .row(titulo="Persona cliente leal")
               .col-md-12.mb-4.mb-md-0
                 p Mantiene un vínculo prolongado y actúa como promotor al recomendar la marca; su valor de por vida (#[em lifetime value]) suele ser superior al promedio.
-            .row(titulo="Persona ex–cliente")
+            .row(titulo="Persona ex – cliente")
               .col-md-12.mb-4.mb-md-0
                 p Interrumpió la relación por diversas causas, su análisis aporta indicadores de mejora en procesos de retención.
         .col-lg-4.col-7.col-md-6
@@ -212,11 +212,11 @@
             h5 Figura 4. 
             span Clientes en la moda
           .col-lg-12
-            img(src="@/assets/curso/Tema1/img06.svg", alt='Ocho personas interactúan en diferentes situaciones relacionadas con la compra de ropa. En la parte superior izquierda, dos personas observan una prenda; una de ellas la sostiene frente a la otra. En el centro superior, una persona está en un punto de pago con otra detrás del mostrador. A la derecha, una persona ofrece una prenda a otra. En la parte inferior izquierda, una persona sostiene varias bolsas en ambas manos. En el centro inferior, otra también lleva múltiples bolsas. A la derecha, dos personas observan un vestido colocado en un maniquí.')
+            img(src="@/assets/curso/Tema1/img06.svg", alt='Personas interactúan en diferentes etapas del proceso de compra en el sector de la moda: desde la selección y pago de prendas hasta la adquisición de múltiples artículos y la revisión de ajustes en maniquíes. Representa el comportamiento del cliente en espacios comerciales dedicados a la vestimenta. ')
     
       separador
       #t_1_2.titulo-segundo.mb-5
-        h2 1.2  Técnicas de atención al cliente
+        h2 1.2.  Técnicas de atención al cliente
 
       .row.justify-content-center.align-items-center.mb-2(data-aos="fade-left")
         .col-lg-5.col-md-8.col-10
@@ -227,7 +227,7 @@
             .col-lg-2.col-4.col-md-2
               img(src='@/assets/curso/Tema1/icono.svg', alt='')
             .col-lg-10.bg-14.p-3.mb-3
-              p En el contexto de modistería, estas estrategias universales se adaptan con protocolos específicos como; toma de medidas exhaustiva, pruebas sucesivas y control de calidad detallado, que aseguran ajustes precisos y una experiencia de servicio confiable y profesional.
+              p En el contexto de modistería, estas estrategias universales se adaptan con protocolos específicos, como la toma de medidas exhaustiva, pruebas sucesivas y control de calidad detallado, que aseguran ajustes precisos y una experiencia de servicio confiable y profesional. 
           p A continuación, se presentan las técnicas empleadas en atención al cliente: 
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -300,7 +300,7 @@
             h4.text-center.mb-0 Toma de medidas y registro detallado
           .row.justify-content-center.align-items-center.mb-2
             .col-lg-12
-              p.text-center Se emplean cintas métricas y plantillas de papel o digital para anotar con precisión las dimensiones corporales y la forma de caída de la prenda.
+              p.text-center Se emplean cintas métricas y plantillas de papel o digitales para anotar con precisión las dimensiones corporales y la forma de caída de la prenda.
         
         .tarjeta.tarjeta-btn.p-4.h-100
           img.mb-3(src='@/assets/curso/Tema1/2.svg', alt='')
@@ -345,7 +345,7 @@
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 5. 
             span Atención al cliente en modistería
-        .col-lg-8.col-md-7.col-10
+        .col-lg-6.col-md-5.col-8
           img(src='@/assets/curso/Tema1/img14.png', alt='Dos personas están de pie, una al lado de la otra. Una de ellas sostiene una tela doblada sobre el hombro de la otra, quien permanece erguida con expresión tranquila. Frente a ambas hay una mesa con varias telas organizadas en capas, hojas extendidas y una tarjeta con muestras en serie. Al fondo hay repisas con objetos y materiales de trabajo.')
       p.mb-4 La siguiente tabla resume las principales técnicas de atención al cliente utilizadas durante el ajuste de prendas de vestir.
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")

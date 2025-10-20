@@ -262,7 +262,7 @@
             li.d-flex.mb-0
               i.fas.fa-angle-right2
               p #[b Contextura mesomórfica:] exhibe músculos prominentes especialmente en la parte superior, de igual manera su apariencia suele ser robusta o gruesa. 
-          p Reconocer estas tipologías facilitas la toma de decisiones técnicas y propicia resultados funcionales, confortables y coherentes con la imagen deseada por la clientela.
+          p Reconocer estas tipologías facilita la toma de decisiones técnicas y propicia resultados funcionales, confortables y coherentes con la imagen deseada por la clientela.
       .col-lg-7
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 22. 
@@ -298,7 +298,7 @@
         p.bg-9.p-4 Las variaciones corporales se originan por factores patológicos, funcionales, hábitos posturales y formas adquiridas, influyendo directamente en la forma y el equilibrio de la figura. Para el personal de modistería y sastrería, reconocer estas diferencias amplía la comprensión de los puntos del patrón o de la prenda desmontada que requieren ajuste. 
         .row.justify-content-center.align-items-center
           .col-lg-4.col-7
-            img(src="@/assets/curso/Tema3/img11.png")
+            img(src="@/assets/curso/Tema3/img11.svg")
           .col-lg-8
             p Por ejemplo, una inclinación del torso modifica la línea de la manga y altera el calce del frente y la espalda, mientras que variaciones en la caída de los hombros o en la proyección del pecho repercuten en la configuración de toda la pieza. Este análisis ergonómico resulta aplicable a cualquier línea de confección, ya sea femenina, masculina o infantil, y sustenta intervenciones precisas que favorecen el confort, la funcionalidad y la estética de la clientela.
       .col-lg-6.col-8
@@ -317,7 +317,7 @@
             ul.lista-ul--color
               li
                 i.fas.fa-angle-right2
-                |Cuerpo inclinado hacia delante. 
+                |Cuerpo inclinado hacia adelante. 
               li
                 i.fas.fa-angle-right2
                 |Cuerpo de equilibrio normal.
@@ -385,7 +385,8 @@
 
               li
                 i.fas.fa-angle-right2
-                |Hombros caídos, cargado de espaldas y curvo.
+                |Hombros caídos, espalda curvada y tórax estrecho. 
+
 
               li
                 i.fas.fa-angle-right2
@@ -396,22 +397,20 @@
       h2 3.4. Medición y señalizado de la prenda
     
     .row.justify-content-center.align-items-center.mb-4(data-aos='fade-right')
+      .col-lg-7
+        p La medición de una prenda puede realizarse en dos contextos: durante su construcción desde el patrón base o al intervenir una pieza ya confeccionada para efectuar ajustes. Cuando el cliente agenda su cita en el taller, se recomienda que asista con la ropa interior que utiliza habitualmente; ello permite establecer con mayor precisión la altura de busto y el contorno torácico en el caso de prendas femeninas. Una vez documentado el análisis antropométrico del cliente, el modisto evalúa la prenda según su tipología, el tipo de tejido y los detalles constructivos, de modo que las recomendaciones formuladas se alineen con la silueta y los requerimientos funcionales.
+        .row.justify-content-center.align-items-center.bg-14.p-4.mb-3
+          .col-lg-9
+            p Antes de iniciar la toma de medidas se clarifica el objetivo del ajuste y se elabora un boceto plano de la pieza frontal, lateral y posterior para registrar gráficamente las intervenciones. Los instrumentos indispensables incluyen alfileres, hilo de contraste para hilvanar, tiza o lápiz de sastre, cinta métrica, descosedor y libreta de anotaciones.
+          .col-lg-3.col-8.col-md-5.mb-3
+            img(src='@/assets/curso/Tema3/ico4.svg', alt='') 
+        p Durante el procedimiento se procede a sujetar provisionalmente la prenda con alfileres o hilvanes, marcando sobre la tela las líneas de corrección y consignando en el boceto las distancias que deben aumentarse o reducirse. Tras finalizar la marcación, la prenda se retira con los alfileres, dejando listos los puntos de referencia para el ajuste definitivo en el área de confección.
       .col-lg-5.col-10.mb-3
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 27. 
           span  Medición
         img(src='@/assets/curso/Tema3/figura27.png', alt='Una persona sostiene una cinta métrica alrededor de la cintura de otra, quien se encuentra de pie con una mano apoyada sobre el pecho y la otra sobre el abdomen. Al fondo hay estanterías con prendas dobladas y colgadas.')
-      .col-lg-7
-        p La medición de una prenda puede realizarse en dos contextos: durante su construcción desde el patrón base o al intervenir una pieza ya confeccionada para efectuar ajustes. Cuando el cliente agenda su cita en el taller, se recomienda que asista con la ropa interior que utiliza habitualmente; ello permite establecer con mayor precisión la altura de busto y el contorno torácico en el caso de prendas femeninas. Una vez documentado el análisis antropométrico del cliente, el modisto evalúa la prenda según su tipología, el tipo de tejido y los detalles constructivos, de modo que las recomendaciones formuladas se alineen con la silueta y los requerimientos funcionales.
-        .row.justify-content-center.align-items-center.bg-14.p-4
-          .col-lg-9
-            p Antes de iniciar la toma de medidas se clarifica el objetivo del ajuste y se elabora un boceto plano de la pieza frontal, lateral y posterior para registrar gráficamente las intervenciones. Los instrumentos indispensables incluyen alfileres, hilo de contraste para hilvanar, tiza o lápiz de sastre, cinta métrica, descosedor y libreta de anotaciones.
-          .col-lg-3.col-8.col-md-5
-            img(src='@/assets/curso/Tema3/ico4.svg', alt='') 
-
-
-    p.mb-4 Durante el procedimiento se procede a sujetar provisionalmente la prenda con alfileres o hilvanes, marcando sobre la tela las líneas de corrección y consignando en el boceto las distancias que deben aumentarse o reducirse. Tras finalizar la marcación, la prenda se retira con los alfileres, dejando listos los puntos de referencia para el ajuste definitivo en el área de confección.
-
+    
     .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
       .col-lg-5.bg-29.p-4.mb-3
         br
@@ -425,22 +424,22 @@
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 28. 
           span  Maniquí de costura
-        img(src='@/assets/curso/Tema3/figura28.png', alt='Persona de perfil mide con cinta métrica un vestido colocado en un maniquí. La cinta se extiende desde el hombro hasta la cintura. Al fondo hay un tablero con hojas sujetas y dibujos técnicos.')
+        img(src='@/assets/curso/Tema3/figura28.png', alt='Dos personas trabajan en el ajuste de una prenda colocada sobre un maniquí de costura; una de ellas utiliza una cinta métrica para tomar medidas mientras la otra supervisa el proceso y brinda orientación. ')
 
 
-    .row.justify-content-center.align-items-center.mb-4(data-aos='fade-right')
-      .col-lg-4.mb-4.col-md-8.col-10
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 29. 
-          span  Medidas sobre superficie plana
-        img(src='@/assets/curso/Tema3/figura29.png', alt='Persona inclinada sobre una mesa extiende una tela con líneas marcadas. Una mano sostiene una cinta métrica y la otra un instrumento de trazado. Sobre la superficie hay regla metálica, tiza de sastre, carrete de hilo y cuaderno.')
+    .row.justify-content-center.align-items-center.mb-4(data-aos='fade-right')    
       .col-lg-8.bg-30.p-4 
         br
         br
         p La prenda se dispone sobre una superficie plana y estable; con las reglas de patronaje se suavizan y perfeccionan las líneas de corrección, mientras que la cinta métrica verifica con exactitud cada distancia y proporción. A partir de esta revisión se determina, según la naturaleza del ajuste, qué paneles conviene desmontar para garantizar la precisión del trabajo. Una vez definido el alcance de la intervención, se procede a desarmar las piezas necesarias y a ejecutar los ajustes previstos con rigor técnico y respeto por la integridad del tejido.
         br
         br
-
+      .col-lg-4.mb-4.col-md-8.col-10
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Figura 29. 
+          span  Medidas sobre superficie plana
+        img(src='@/assets/curso/Tema3/figura29.png', alt='Persona inclinada sobre una mesa extiende una tela con líneas marcadas. Una mano sostiene una cinta métrica y la otra un instrumento de trazado. Sobre la superficie hay regla metálica, tiza de sastre, carrete de hilo y cuaderno.')
+    
     .row.justify-content-center.align-items-center.mb-5(data-aos='fade-right')
       .col-lg-5
         p En conclusión, comprender a la persona cliente y conocer a profundidad la estructura corporal femenina son pilares fundamentales en el proceso de ajuste de prendas. La integración de técnicas de atención, comunicación efectiva, análisis antropométrico y conocimiento de las tipologías de silueta permite ofrecer un servicio personalizado, funcional y estéticamente coherente. 
