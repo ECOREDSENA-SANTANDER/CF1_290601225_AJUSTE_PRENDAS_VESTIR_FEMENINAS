@@ -47,7 +47,7 @@
                   td.texto-izquierda Prenda inferior con múltiples cortes y tejidos; combina confort y estilo según el ajuste y el material.
                 tr
                   td.texto-izquierda Chaquetas y abrigos
-                  td.texto-izquierda #[em Blazer, trench, bomber,] abrigo, largo
+                  td.texto-izquierda #[em Blazer, trench, bomber,] abrigo largo
                   td.texto-izquierda Prenda exterior destinada a aportar estructura y abrigo; su diseño define el nivel de formalidad y protección.
                 tr
                   td.texto-izquierda Monos y enterizos
@@ -92,7 +92,7 @@
         
           .row.justify-content-center.align-items-center
             .col-10.col-lg-5
-              h4 #[em Top] y blusas
+              h4 #[em Tops] y blusas
               p Prendas superiores que cubren el torso. El #[em top] suele ser una prenda más corta y ajustada, de estilo informal. La blusa, en cambio, es más suelta, versátil y común en contextos formales o semiformales.
             .col-10.col-md-8.col-lg-6.mb-4.mb-lg-0
               .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -461,7 +461,7 @@
     
     Separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.3 Los textiles
+      h2 2.3. Los textiles
 
     .row.justify-content-center.mb-4(data-aos="fade")
       .col-lg-6.col-md-12.pe-lg-0
