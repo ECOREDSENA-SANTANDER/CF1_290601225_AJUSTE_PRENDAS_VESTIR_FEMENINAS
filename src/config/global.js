@@ -291,7 +291,7 @@ export default {
     },
     {
       referencia:
-        'Pacheco, A. (2023). Economía circular y el arreglo y modificación de ropa. LinkedIn.',
+        'Pacheco, V. H. (2023). Economía circular y el arreglo y modificación de ropa. LinkedIn.',
       link:
         'https://es.linkedin.com/pulse/econom%C3%ADa-circular-y-el-arreglo-modificaci%C3%B3n-de-ropa-pacheco  ',
     },

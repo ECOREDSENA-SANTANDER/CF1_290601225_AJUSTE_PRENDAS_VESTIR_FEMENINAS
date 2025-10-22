@@ -328,12 +328,6 @@
       
       .bg-11.py-4.py-md-5(titulo="Con relación a las piernas se encuentran")
         .row.justify-content-center.align-items-center
-          .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
-            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 24.  
-              span Postura en piernas
-            img(src='@/assets/curso/Tema3/figura24.svg', alt='Dos figuras masculinas de frente. La primera tiene postura relajada con pies ligeramente separados y brazos extendidos a los lados. La segunda presenta una silueta más alargada, con pies más juntos y brazos cercanos al cuerpo.')
-            figcaption.text-regular Fuente: (Alarcón, 2014). Anexo1_sastreria_Masculina. Página 24
           .col-10.col-lg-4
             h4 Con relación a las piernas se encuentran
             ul.lista-ul--color
@@ -344,15 +338,16 @@
               li
                 i.fas.fa-angle-right2
                 |Piernas con rodillas juntas.
+          .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
+            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+              h5 Figura 24.  
+              span Postura en piernas
+            img(src='@/assets/curso/Tema3/figura24.svg', alt='Dos figuras masculinas de frente. La primera tiene postura relajada con pies ligeramente separados y brazos extendidos a los lados. La segunda presenta una silueta más alargada, con pies más juntos y brazos cercanos al cuerpo.')
+            figcaption.text-regular Fuente: (Alarcón, 2014). Anexo1_sastreria_Masculina. Página 24
+         
            
       .bg-11.py-4.py-md-5(titulo="En las conformaciones de los hombros se encuentran")
         .row.justify-content-center.align-items-center
-          .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
-            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 25.  
-              span Conformaciones de los hombros
-            img(src='@/assets/curso/Tema3/figura25.svg', alt='Tres figuras humanas masculinas en vista lateral. Cada una presenta una postura diferente: la primera con inclinación hacia adelante, la segunda con alineación vertical recta y la tercera con leve inclinación hacia atrás.')
-            figcaption.text-regular Fuente: (Alarcón, 2014). Anexo 3 
           .col-10.col-lg-5
             h4 En las conformaciones de los hombros se encuentran
             ul.lista-ul--color
@@ -360,22 +355,22 @@
                 i.fas.fa-angle-right2
                 |Hombros altos.
 
-
               li
                 i.fas.fa-angle-right2
                 |Hombros bajos.
               li
                 i.fas.fa-angle-right2
                 |El hombro derecho más bajo.
+          .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
+            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+              h5 Figura 25.  
+              span Conformaciones de los hombros
+            img(src='@/assets/curso/Tema3/figura25.svg', alt='Tres figuras humanas masculinas en vista lateral. Cada una presenta una postura diferente: la primera con inclinación hacia adelante, la segunda con alineación vertical recta y la tercera con leve inclinación hacia atrás.')
+            figcaption.text-regular Fuente: (Alarcón, 2014). Anexo 3 
+          
 
       .bg-11.py-4.py-md-5(titulo="Conformaciones del pecho")
         .row.justify-content-center.align-items-center
-          .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
-            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 26.  
-              span Conformaciones del pecho
-            img(src='@/assets/curso/Tema3/figura26.svg', alt='Tres figuras masculinas en vista lateral. La primera mantiene una postura erguida, la segunda muestra el torso inclinado hacia adelante con abdomen prominente, y la tercera presenta una inclinación general hacia adelante con curvatura en la espalda.')
-            figcaption.text-regular Fuente: (Alarcón, 2014). Anexo 3. Página 26
           .col-10.col-lg-5
             h4 Conformaciones del pecho
             ul.lista-ul--color
@@ -392,6 +387,13 @@
               li
                 i.fas.fa-angle-right2
                 |Conformación delgada.
+          .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
+            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+              h5 Figura 26.  
+              span Conformaciones del pecho
+            img(src='@/assets/curso/Tema3/figura26.svg', alt='Tres figuras masculinas en vista lateral. La primera mantiene una postura erguida, la segunda muestra el torso inclinado hacia adelante con abdomen prominente, y la tercera presenta una inclinación general hacia adelante con curvatura en la espalda.')
+            figcaption.text-regular Fuente: (Alarcón, 2014). Anexo 3. Página 26
+         
 
     Separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
