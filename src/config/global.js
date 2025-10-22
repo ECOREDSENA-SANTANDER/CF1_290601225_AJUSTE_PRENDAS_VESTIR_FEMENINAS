@@ -175,7 +175,7 @@ export default {
     {
       tema: 'Estructura corporal femenina',
       referencia:
-        'Valero Martínez, M., Ballester Fernández, A., Nácher Fernández, B., Piérola Orcero, A., Alemany Mut, S., González García, J. C., Gil Mora, S., & Caprara, G. (2015). <i>La antropometría, garantía para un correcto ajuste de la ropa. Revista de Biomecánica</i>, 62, 11–17. ',
+        'Valero Martínez, M., Ballester Fernández, A., Nácher Fernández, B., Piérola Orcero, A., Alemany Mut, S., González García, J. C., Gil Mora, S., & Caprara, G. (2015). La antropometría, garantía para un correcto ajuste de la ropa. Revista de Biomecánica, 62, 11–17. ',
       tipo: 'Artículo.',
       link: 'https://dialnet.unirioja.es/descarga/articulo/6263312.pdf ',
     },
@@ -280,7 +280,7 @@ export default {
         'https://www.gq.com.mx/moda/articulo/sabias-que-existian-estilos-de-sastreria-para-el-hombre-ahora-conoce-sus-diferencias',
     },
     {
-      referencia: 'Inexmoda. (2024). Informe de tendencias: Colombiamoda 2024',
+      referencia: 'Inexmoda. (2024). Informe de tendencias: Colombiamoda 2024.',
       link: '',
     },
     {

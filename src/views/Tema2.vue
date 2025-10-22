@@ -558,7 +558,7 @@
                   h5 Tabla 7.
                   span Clasificación de tejidos
                 .tabla-a.align-items-center
-                  table(style="width:auto; table-layout:auto; border-collapse:collapse; background-color:white; border:1px solid #ddd;" alt='Informacion para la línea: En esa frase deben ir en mayúscula los nombres propios y las siglas institucionales. Así corregido: (Textile Terms and Definitions, The Textile Institute, citado por el SENA). Explicación: •	Textile Terms and Definitions: es el título de una obra, por lo tanto va en mayúscula inicial en cada palabra principal en inglés (según normas de estilo en títulos). •	The Textile Institute: es el nombre propio de una institución, por lo tanto en mayúscula.')
+                  table(style="width:auto; table-layout:auto; border-collapse:collapse; background-color:white; border:1px solid #ddd;" alt='Tabla con la clasificación de los tejidos en dos grandes grupos: telas tejidas y telas no tejidas. Dentro de las telas tejidas se encuentran los tejidos planos, que incluyen ligamentos fundamentales como tafetán, sarga y raso; ligamentos derivados como esterilla, espina y sarga interrumpida; y otros como dobby, jacquard y afelpados. También se clasifican los tejidos de punto, divididos en tejidos por trama (jersey, lacoste, rib, interlock, piqué) y por urdimbre (tricot y raschell). Por último, las telas no tejidas comprenden materiales como interlones, guatas y entretelas.')
                     caption(style="caption-side:bottom; text-align:left; font-size:0.9em; color:#555;") Fuente: SENA, (2020)
                     tbody
                       //--- TELAS TEJIDAS (7 plano + 4 punto = 11 filas)

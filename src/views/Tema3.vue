@@ -306,12 +306,6 @@
     TabsC.color-primario.mb-5(data-aos="fade")
       .bg-11.py-4.py-md-5(titulo="En la inclinación del cuerpo se encuentran")
         .row.justify-content-center.align-items-center
-          .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
-            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-              h5 Figura 23.  
-              span Inclinación del cuerpo
-            img(src='@/assets/curso/Tema3/figura23.svg', alt='Tres figuras humanas masculinas en vista lateral. Cada una presenta una postura diferente: la primera con inclinación hacia adelante, la segunda con alineación vertical recta y la tercera con leve inclinación hacia atrás.')
-            figcaption.text-regular Fuente: (Alarcón, 2014). Anexo 3 
           .col-10.col-lg-4
             h4 En la inclinación del cuerpo se encuentran
             ul.lista-ul--color
@@ -324,6 +318,13 @@
               li
                 i.fas.fa-angle-right2
                 |Cuerpo inclinado hacia atrás.
+          .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
+            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+              h5 Figura 23.  
+              span Inclinación del cuerpo
+            img(src='@/assets/curso/Tema3/figura23.svg', alt='Tres figuras humanas masculinas en vista lateral. Cada una presenta una postura diferente: la primera con inclinación hacia adelante, la segunda con alineación vertical recta y la tercera con leve inclinación hacia atrás.')
+            figcaption.text-regular Fuente: (Alarcón, 2014). Anexo 3 
+          
       
       .bg-11.py-4.py-md-5(titulo="Con relación a las piernas se encuentran")
         .row.justify-content-center.align-items-center
@@ -372,7 +373,7 @@
           .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 26.  
-              span Conformaciones de los hombros
+              span Conformaciones del pecho
             img(src='@/assets/curso/Tema3/figura26.svg', alt='Tres figuras masculinas en vista lateral. La primera mantiene una postura erguida, la segunda muestra el torso inclinado hacia adelante con abdomen prominente, y la tercera presenta una inclinación general hacia adelante con curvatura en la espalda.')
             figcaption.text-regular Fuente: (Alarcón, 2014). Anexo 3. Página 26
           .col-10.col-lg-5
