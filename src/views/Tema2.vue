@@ -665,7 +665,7 @@
           .row(numero="d" titulo="Cálculo del aprovechamiento")
             .col-md-12.mb-4.mb-md-0
               p La fórmula para calcular el aprovechamiento es:
-              img(src='@/assets/curso/Tema2/formu.svg', alt='')
+              img(src='@/assets/curso/Tema2/formu.svg', alt='Expresión matemática que define el porcentaje de aprovechamiento del material textil, calculado dividiendo el área útil ocupada por los patrones entre el área total del metro de tela y multiplicando el resultado por cien, para obtener porcentaje.')
               p Área ocupada por los patrones: 1,15 m².
               h5 Ejemplo de aplicación
               h5 Aprovechamiento = (1,15  /  1,5) * 100 = 76,67 %

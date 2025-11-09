@@ -141,7 +141,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CF1_290601225_DU.zip',
+        download: 'downloads/CF1_84220328_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -293,7 +293,7 @@ export default {
       referencia:
         'Pacheco, V. H. (2023). Economía circular y el arreglo y modificación de ropa. LinkedIn.',
       link:
-        'https://es.linkedin.com/pulse/econom%C3%ADa-circular-y-el-arreglo-modificaci%C3%B3n-de-ropa-pacheco  ',
+        'https://es.linkedin.com/pulse/econom%C3%ADa-circular-y-el-arreglo-modificaci%C3%B3n-de-ropa-pacheco',
     },
     {
       referencia:

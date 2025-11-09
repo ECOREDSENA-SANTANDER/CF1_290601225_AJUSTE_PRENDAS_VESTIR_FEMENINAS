@@ -12,7 +12,7 @@
           .col-lg-7
             .p-4.p-lg-5
               p El concepto de cliente se tomará en este espacio como #[b “persona cliente”] el cual engloba a cualquier individuo, colectivo u organización que, al identificar una necesidad, expectativa o dificultad concreta, opta por transferir recursos monetarios o de otra índole a cambio de una solución presentada como producto, servicio o experiencia. Hoy en día, se reconoce que la persona cliente no se limita a consumir lo que la entidad pone a disposición, sino que interviene de manera activa en la generación de valor: aporta información relevante, evalúa la propuesta y colabora en su perfeccionamiento continuo.
-              p.mb-0 Desde un enfoque relacional, la interacción con la persona cliente se entiende como un proceso evolutivo que abarca todas las etapas del ciclo de consumo. Dichas etapas incluyen el reconocimiento de la necesidad, la exploración de alternativas, la adquisición, el uso o disfrute y todo lo que implica el servicio postventa. Para cada fase se diseñan estrategias específicas, dado que las expectativas y demandas varían conforme avanza la experiencia.
+              p.mb-0 Desde un enfoque relacional, la interacción con la persona cliente se entiende como un proceso evolutivo que abarca todas las etapas del ciclo de consumo. Dichas etapas incluyen el reconocimiento de la necesidad, la exploración de alternativas, la adquisición, el uso o disfrute y todo lo que implica el servicio posventa. Para cada fase se diseñan estrategias específicas, dado que las expectativas y demandas varían conforme avanza la experiencia.
           .col-lg-5.col-md-12.d-none.d-lg-block
             img(src='@/assets/curso/Tema1/img01.png', alt='')
 
@@ -49,7 +49,7 @@
               p.mb-0 En términos económicos: se diferencian clientes de alto valor, estratégicos o de bajo impacto.
           p Esta clasificación permite ajustar la atención, mejorar la experiencia del servicio y optimizar la relación comercial. 
 
-      .fondo_t1.p-4
+      .fondo_t1.p-4.mb-4
         .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
           .col-lg-12
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -57,8 +57,7 @@
               span Clasificación de clientes
           .col-lg-8.mb-2 
             img(src='@/assets/curso/Tema1/figura2.svg', alt='La figura presenta una pirámide dividida en cinco niveles, donde cada uno representa un aspecto clave relacionado con la clasificación de clientes. De forma ascendente, se abordan los siguientes elementos: la mejor opción para la clasificación de clientes, los riesgos de no categorizar a los clientes, los beneficios de la clasificación, la importancia de categorizar y, en la cúspide, la comprensión de los diferentes tipos de clientes. Este enfoque jerárquico destaca la progresión necesaria para una gestión estratégica y efectiva del cliente.')
-      .col-lg-12.mb-4
-        figcaption.text-regular Fuente: https://fastercapital.com/es/i-es/Categorizacion-de-inversores-MiFID--como-clasificar-a-los-clientes--La-importancia-de-la-clasificaci-n-de-clientes.webp
+     
 
       .tarjeta.bg-3.p-3.py-md-4(data-aos="fade").mb-3
         .row.justify-content-around.align-items-center
@@ -222,7 +221,7 @@
         .col-lg-5.col-md-8.col-10
           img.mb-3(src='@/assets/curso/Tema1/img07.png', alt='')
         .col-lg-7
-          p Las técnicas de atención al cliente constituyen un conjunto de prácticas estructuradas que permiten a las organizaciones y talleres de servicio comprender, acompañar y satisfacer las expectativas de las personas usuarias de manera efectiva. Desde la escucha activa y la empatía profesional hasta la comunicación transparente y el seguimiento postventa, cada método se orienta a fortalecer la relación con la persona usuaria, garantizando claridad en los procesos, personalización en las soluciones y resolución ágil de inconvenientes. 
+          p Las técnicas de atención al cliente constituyen un conjunto de prácticas estructuradas que permiten a las organizaciones y talleres de servicio comprender, acompañar y satisfacer las expectativas de las personas usuarias de manera efectiva. Desde la escucha activa y la empatía profesional hasta la comunicación transparente y el seguimiento posventa, cada método se orienta a fortalecer la relación con la persona usuaria, garantizando claridad en los procesos, personalización en las soluciones y resolución ágil de inconvenientes. 
           .row.justify-content-center.align-items-center.mb-0
             .col-lg-2.col-4.col-md-2
               img(src='@/assets/curso/Tema1/icono.svg', alt='')
