@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="491" height="116" viewBox="0 0 491 116">
+  <g id="Grupo_1126572" data-name="Grupo 1126572" transform="translate(178 3261)">
+    <text id="Nota:_tela_1_metro_de_largo_x_1_50_metros_de_ancho_1_5_m_." data-name="Nota: tela, 1 metro de largo x 1,50 metros de ancho = 1,5 m²." transform="translate(-177 -3162)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="13">Nota: tela, 1 metro de largo x 1,50 metros de ancho = 1,5 m².</tspan></text>
+    <g id="Grupo_1126571" data-name="Grupo 1126571">
+      <g id="Grupo_1125940" data-name="Grupo 1125940" transform="translate(-569 226.731)">
+        <text id="Aprovechamiento_:" data-name="Aprovechamiento (%) :" transform="translate(392 -3439.731)" fill="#12263f" font-size="14" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Aprovechamiento (%) :</tspan></text>
+        <text id="_" data-name="(" transform="translate(547 -3428.731)" fill="#12263f" font-size="56" font-family="Roboto-Thin, Roboto" font-weight="200"><tspan x="0" y="0">(</tspan></text>
+        <text id="_2" data-name=")" transform="translate(801 -3428.731)" fill="#12263f" font-size="56" font-family="Roboto-Thin, Roboto" font-weight="200"><tspan x="0" y="0">)</tspan></text>
+        <g id="Grupo_1125939" data-name="Grupo 1125939" transform="translate(562.338 -3462.333)">
+          <text id="Área_útil_utilizada_por_los_patrones" data-name="Área útil utilizada por los patrones" transform="translate(5.662 12.602)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Área útil utilizada por los patrones</tspan></text>
+          <text id="Área_total_del_metro_de_tela" data-name="Área total del metro de tela" transform="translate(30.662 37.602)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Área total del metro de tela</tspan></text>
+          <line id="Línea_1702" data-name="Línea 1702" x2="240.807" transform="translate(0 20.067)" fill="none" stroke="#707070" stroke-width="1"/>
+        </g>
+        <text id="X_100" data-name="X 100" transform="translate(822 -3437.731)" fill="#12263f" font-size="14" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">X 100</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
